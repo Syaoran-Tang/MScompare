@@ -1,0 +1,360 @@
+AT1G29250.1 AT1G29250.1 | Symbols: | Alba DNA/RNA-binding protein | chr1:10223461-10224592 REVERSE LEN
+AT3G09440.1 AT3G09440.1 | Symbols: | Heat shock protein 70 (Hsp 70) family protein | chr3:2903434-2905
+AT3G26060.1 AT3G26060.1 | Symbols: ATPRX Q | Thioredoxin superfamily protein | chr3:9524807-9526123 FO
+AT4G20360.1 AT4G20360.1 | Symbols: ATRAB8D, ATRABE1B, RABE1b | RAB GTPase homolog E1B | chr4:10990036-
+AT1G75750.1 AT1G75750.1 | Symbols: GASA1 | GAST1 protein homolog 1 | chr1:28441813-28442284 REVERSE LE
+AT2G34160.1 AT2G34160.1 | Symbols: | Alba DNA/RNA-binding protein | chr2:14426283-14427220 FORWARD LEN
+AT1G13020.1 AT1G13020.1 | Symbols: EIF4B2 | eukaryotic initiation factor 4B2 | chr1:4440927-4443520 RE
+AT3G15730.1 AT3G15730.1 | Symbols: PLDALPHA1, PLD | phospholipase D alpha 1 | chr3:5330835-5333474 FOR
+AT5G57370.1 AT5G57370.1 | Symbols: | unknown protein; CONTAINS InterPro DOMAIN/s: Protein of unknown f
+AT1G19480.1 AT1G19480.1 | Symbols: | DNA glycosylase superfamily protein | chr1:6744520-6746144 FORWAR
+AT3G47070.1 AT3G47070.1 | Symbols: | LOCATED IN: thylakoid, chloroplast thylakoid membrane, chloroplas
+AT5G16780.1 AT5G16780.1 | Symbols: DOT2, MDF | SART-1 family | chr5:5517784-5521566 REVERSE LENGTH=820
+AT2G17630.1 AT2G17630.1 | Symbols: | Pyridoxal phosphate (PLP)-dependent transferases superfamily prot
+AT5G04280.1 AT5G04280.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein with retrovirus z
+AT1G76010.1 AT1G76010.1 | Symbols: | Alba DNA/RNA-binding protein | chr1:28528505-28530488 REVERSE LEN
+AT5G40490.1 AT5G40490.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein | chr5:16225483-1
+AT5G47210.1 AT5G47210.1 | Symbols: | Hyaluronan / mRNA binding family | chr5:19169222-19171012 REVERSE
+AT4G35785.1 AT4G35785.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein | chr4:16953211-1
+AT2G37620.1 AT2G37620.1 | Symbols: ACT1, AAc1 | actin 1 | chr2:15779761-15781241 FORWARD LENGTH=377
+AT4G35630.1 AT4G35630.1 | Symbols: PSAT | phosphoserine aminotransferase | chr4:16904205-16905497 FORW
+AT2G45960.1 AT2G45960.1 | Symbols: PIP1B, TMP-A, ATHH2, PIP1;2 | plasma membrane intrinsic protein 1B
+AT5G37720.1 AT5G37720.1 | Symbols: ALY4 | ALWAYS EARLY 4 | chr5:14981805-14983978 REVERSE LENGTH=288
+AT5G62690.1 AT5G62690.1 | Symbols: TUB2 | tubulin beta chain 2 | chr5:25181560-25183501 FORWARD LENGTH
+AT1G26550.1 AT1G26550.1 | Symbols: | FKBP-like peptidyl-prolyl cis-trans isomerase family protein | ch
+AT1G67090.1 AT1G67090.1 | Symbols: RBCS1A | ribulose bisphosphate carboxylase small chain 1A | chr1:25
+AT5G44340.1 AT5G44340.1 | Symbols: TUB4 | tubulin beta chain 4 | chr5:17859442-17860994 REVERSE LENGTH
+AT3G23450.1 AT3G23450.1 | Symbols: | unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLV
+AT2G24590.1 AT2G24590.1 | Symbols: RSZ22a, At-RSZ22a | RNA recognition motif and CCHC-type zinc finger
+AT3G14310.1 AT3G14310.1 | Symbols: ATPME3, PME3 | pectin methylesterase 3 | chr3:4772214-4775095 REVER
+AT3G22330.1 AT3G22330.1 | Symbols: PMH2, ATRH53 | putative mitochondrial RNA helicase 2 | chr3:7892641
+AT5G39570.1 AT5G39570.1 | Symbols: | FUNCTIONS IN: molecular_function unknown; INVOLVED IN: biological
+AT2G43030.1 AT2G43030.1 | Symbols: | Ribosomal protein L3 family protein | chr2:17894898-17895713 FORW
+AT1G23860.1 AT1G23860.1 | Symbols: SRZ-21, SRZ21, RSZP21, RSZ21, At-RSZ21 | RS-containing zinc finger
+AT2G18020.1 AT2G18020.1 | Symbols: EMB2296 | Ribosomal protein L2 family | chr2:7837151-7838160 FORWAR
+AT1G22780.1 AT1G22780.1 | Symbols: PFL, RPS18A, PFL1 | Ribosomal protein S13/S18 family | chr1:8067990
+AT1G13440.1 AT1G13440.1 | Symbols: GAPC-2, GAPC2 | glyceraldehyde-3-phosphate dehydrogenase C2 | chr1:
+AT1G71080.1 AT1G71080.1 | Symbols: | RNA polymerase II transcription elongation factor | chr1:26809987
+AT1G20220.1 AT1G20220.1 | Symbols: | Alba DNA/RNA-binding protein | chr1:7005090-7007285 REVERSE LENGT
+AT4G21620.1 AT4G21620.1 | Symbols: | glycine-rich protein | chr4:11491519-11491914 FORWARD LENGTH=131
+ATCG00800.1 ATCG00800.1 | Symbols: | structural constituent of ribosome | chrC:82826-83482 REVERSE LEN
+AT3G52220.1 AT3G52220.1 | Symbols: | CONTAINS InterPro DOMAIN/s: Kinase phosphorylation domain (InterP
+AT2G41100.3 AT2G41100.3 | Symbols: TCH3, ATCAL4 | Calcium-binding EF hand family protein | chr2:171383
+AT5G62350.1 AT5G62350.1 | Symbols: | Plant invertase/pectin methylesterase inhibitor superfamily prote
+AT1G78630.1 AT1G78630.1 | Symbols: emb1473 | Ribosomal protein L13 family protein | chr1:29575997-2957
+AT3G06980.1 AT3G06980.1 | Symbols: | DEA(D/H)-box RNA helicase family protein | chr3:2201531-2204662 F
+AT5G26742.1 AT5G26742.1 | Symbols: emb1138 | DEAD box RNA helicase (RH3) | chr5:9285540-9288871 REVERS
+AT5G53440.1 AT5G53440.1 | Symbols: | unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLV
+AT3G44690.1 AT3G44690.1 | Symbols: | unknown protein; Has 30201 Blast hits to 17322 proteins in 780 sp
+AT2G38540.1 AT2G38540.1 | Symbols: LP1, LTP1, ATLTP1 | lipid transfer protein 1 | chr2:16130418-161308
+AT3G45030.1 AT3G45030.1 | Symbols: | Ribosomal protein S10p/S20e family protein | chr3:16471606-164723
+AT2G16940.1 AT2G16940.1 | Symbols: | Splicing factor, CC1-like | chr2:7342869-7347052 REVERSE LENGTH=5
+AT1G64370.1 AT1G64370.1 | Symbols: | unknown protein; Has 773 Blast hits to 375 proteins in 118 specie
+AT5G30510.1 AT5G30510.1 | Symbols: RPS1, ARRPS1 | ribosomal protein S1 | chr5:11619262-11621223 REVERS
+AT3G46780.1 AT3G46780.1 | Symbols: PTAC16 | plastid transcriptionally active 16 | chr3:17228766-172310
+ATCG00160.1 ATCG00160.1 | Symbols: RPS2 | ribosomal protein S2 | chrC:15013-15723 REVERSE LENGTH=236
+AT1G54410.1 AT1G54410.1 | Symbols: | dehydrin family protein | chr1:20310305-20310601 REVERSE LENGTH=9
+AT4G29270.1 AT4G29270.1 | Symbols: | HAD superfamily, subfamily IIIB acid phosphatase | chr4:14423797-
+AT3G25920.1 AT3G25920.1 | Symbols: RPL15 | ribosomal protein L15 | chr3:9491268-9492558 REVERSE LENGTH
+AT3G16530.1 AT3G16530.1 | Symbols: | Legume lectin family protein | chr3:5624586-5625416 REVERSE LENGT
+AT1G65440.1 AT1G65440.1 | Symbols: GTB1 | global transcription factor group B1 | chr1:24306945-2431432
+AT2G16860.1 AT2G16860.1 | Symbols: | GCIP-interacting family protein | chr2:7304139-7305959 REVERSE LE
+AT4G01310.1 AT4G01310.1 | Symbols: | Ribosomal L5P family protein | chr4:544166-545480 REVERSE LENGTH=
+AT1G74970.1 AT1G74970.1 | Symbols: RPS9, TWN3 | ribosomal protein S9 | chr1:28157761-28159202 REVERSE
+AT3G14415.1 AT3G14415.1 | Symbols: | Aldolase-type TIM barrel family protein | chr3:4818667-4820748 FO
+AT2G33410.1 AT2G33410.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein | chr2:14156085-1
+AT1G31330.1 AT1G31330.1 | Symbols: PSAF | photosystem I subunit F | chr1:11215011-11215939 REVERSE LEN
+AT4G18740.1 AT4G18740.1 | Symbols: | Rho termination factor | chr4:10303543-10304479 REVERSE LENGTH=24
+AT5G23860.1 AT5G23860.1 | Symbols: TUB8 | tubulin beta 8 | chr5:8042962-8044528 FORWARD LENGTH=449
+AT1G09070.1 AT1G09070.1 | Symbols: SRC2, (AT)SRC2 | soybean gene regulated by cold-2 | chr1:2927767-29
+AT2G47640.1 AT2G47640.1 | Symbols: | Small nuclear ribonucleoprotein family protein | chr2:19537393-19
+ATCG01120.1 ATCG01120.1 | Symbols: RPS15 | chloroplast ribosomal protein S15 | chrC:123296-123562 REVE
+AT1G75560.1 AT1G75560.1 | Symbols: | zinc knuckle (CCHC-type) family protein | chr1:28371420-28372717
+ATCG00900.1 ATCG00900.1 | Symbols: RPS7.1, RPS7 | Ribosomal protein S7p/S5e family protein | chrC:9747
+AT4G17520.1 AT4G17520.1 | Symbols: | Hyaluronan / mRNA binding family | chr4:9771496-9773313 FORWARD L
+AT5G58470.1 AT5G58470.1 | Symbols: TAF15b | TBP-associated factor 15B | chr5:23638566-23640854 REVERSE
+AT1G51400.1 AT1G51400.1 | Symbols: | Photosystem II 5 kD protein | chr1:19052172-19052492 REVERSE LENG
+AT1G06190.1 AT1G06190.1 | Symbols: | Rho termination factor | chr1:1892467-1894078 REVERSE LENGTH=401
+AT4G26630.1 AT4G26630.1 | Symbols: | DEK domain-containing chromatin associated protein | chr4:1343087
+AT2G10940.1 AT2G10940.1 | Symbols: | Bifunctional inhibitor/lipid-transfer protein/seed storage 2S alb
+AT1G29910.1 AT1G29910.1 | Symbols: CAB3, AB180, LHCB1.2 | chlorophyll A/B binding protein 3 | chr1:104
+AT5G65730.1 AT5G65730.1 | Symbols: XTH6 | xyloglucan endotransglucosylase/hydrolase 6 | chr5:26299080-
+AT4G16830.1 AT4G16830.1 | Symbols: | Hyaluronan / mRNA binding family | chr4:9470621-9472308 FORWARD L
+AT2G17870.1 AT2G17870.1 | Symbols: ATCSP3, CSP3 | cold shock domain protein 3 | chr2:7764276-7765181 R
+AT1G47128.1 AT1G47128.1 | Symbols: RD21, RD21A | Granulin repeat cysteine protease family protein | ch
+ATCG00820.1 ATCG00820.1 | Symbols: RPS19 | ribosomal protein S19 | chrC:84005-84283 REVERSE LENGTH=92
+AT3G52930.1 AT3G52930.1 | Symbols: | Aldolase superfamily protein | chr3:19627383-19628874 REVERSE LEN
+AT2G20140.1 AT2G20140.1 | Symbols: | AAA-type ATPase family protein | chr2:8692736-8694837 FORWARD LEN
+AT3G13460.1 AT3G13460.1 | Symbols: ECT2 | evolutionarily conserved C-terminal region 2 | chr3:4385274-
+AT1G20620.1 AT1G20620.1 | Symbols: CAT3, SEN2, ATCAT3 | catalase 3 | chr1:7143142-7146193 FORWARD LENG
+AT3G56720.1 AT3G56720.1 | Symbols: | unknown protein; Has 6239 Blast hits to 4635 proteins in 365 spec
+AT3G08580.1 AT3G08580.1 | Symbols: AAC1 | ADP/ATP carrier 1 | chr3:2605706-2607030 REVERSE LENGTH=381
+AT3G23600.1 AT3G23600.1 | Symbols: | alpha/beta-Hydrolases superfamily protein | chr3:8473833-8475655
+AT5G54600.1 AT5G54600.1 | Symbols: | Translation protein SH3-like family protein | chr5:22183046-22184
+AT2G34860.1 AT2G34860.1 | Symbols: EDA3 | DnaJ/Hsp40 cysteine-rich domain superfamily protein | chr2:1
+AT1G35680.1 AT1G35680.1 | Symbols: | Ribosomal protein L21 | chr1:13208777-13210246 FORWARD LENGTH=220
+AT3G57560.1 AT3G57560.1 | Symbols: NAGK | N-acetyl-l-glutamate kinase | chr3:21311164-21312207 REVERSE
+AT5G27770.1 AT5G27770.1 | Symbols: | Ribosomal L22e protein family | chr5:9836166-9837113 FORWARD LENG
+AT1G30380.1 AT1G30380.1 | Symbols: PSAK | photosystem I subunit K | chr1:10722325-10723013 FORWARD LEN
+AT2G05520.1 AT2G05520.1 | Symbols: GRP-3, ATGRP-3, GRP3, ATGRP3 | glycine-rich protein 3 | chr2:202621
+AT5G15230.1 AT5G15230.1 | Symbols: GASA4 | GAST1 protein homolog 4 | chr5:4945017-4946025 FORWARD LENG
+AT3G51600.1 AT3G51600.1 | Symbols: LTP5 | lipid transfer protein 5 | chr3:19138661-19139124 REVERSE LE
+AT1G20020.1 AT1G20020.1 | Symbols: ATLFNR2, FNR2 | ferredoxin-NADP(+)-oxidoreductase 2 | chr1:6942851-
+AT4G25630.1 AT4G25630.1 | Symbols: FIB2, ATFIB2 | fibrillarin 2 | chr4:13074239-13076205 FORWARD LENGT
+AT2G33830.1 AT2G33830.1 | Symbols: | Dormancy/auxin associated family protein | chr2:14309768-14310286
+AT3G55460.1 AT3G55460.1 | Symbols: SCL30, At-SCL30 | SC35-like splicing factor 30 | chr3:20561024-2056
+AT3G54890.1 AT3G54890.1 | Symbols: LHCA1 | photosystem I light harvesting complex gene 1 | chr3:203397
+AT5G62340.1 AT5G62340.1 | Symbols: | Plant invertase/pectin methylesterase inhibitor superfamily prote
+AT1G12900.1 AT1G12900.1 | Symbols: GAPA-2 | glyceraldehyde 3-phosphate dehydrogenase A subunit 2 | chr
+AT5G14740.1 AT5G14740.1 | Symbols: CA2, CA18, BETA CA2 | carbonic anhydrase 2 | chr5:4758257-4762382 F
+AT4G36690.1 AT4G36690.1 | Symbols: ATU2AF65A | U2 snRNP auxilliary factor, large subunit, splicing fac
+AT3G54540.1 AT3G54540.1 | Symbols: ATGCN4, GCN4 | general control non-repressible 4 | chr3:20190393-20
+AT1G26110.1 AT1G26110.1 | Symbols: DCP5 | decapping 5 | chr1:9024616-9027556 REVERSE LENGTH=611
+AT3G05560.1 AT3G05560.1 | Symbols: | Ribosomal L22e protein family | chr3:1614641-1615204 FORWARD LENG
+AT3G44890.1 AT3G44890.1 | Symbols: RPL9 | ribosomal protein L9 | chr3:16386505-16387963 FORWARD LENGTH
+AT5G64200.1 AT5G64200.1 | Symbols: ATSC35, SC35, At-SC35 | ortholog of human splicing factor SC35 | ch
+AT1G08880.1 AT1G08880.1 | Symbols: HTA5, H2AXA, G-H2AX, GAMMA-H2AX | Histone superfamily protein | chr
+AT2G38810.1 AT2G38810.1 | Symbols: HTA8 | histone H2A 8 | chr2:16219444-16220679 REVERSE LENGTH=136
+AT5G43960.1 AT5G43960.1 | Symbols: | Nuclear transport factor 2 (NTF2) family protein with RNA binding
+AT5G20290.1 AT5G20290.1 | Symbols: | Ribosomal protein S8e family protein | chr5:6851695-6853012 REVER
+AT1G03600.1 AT1G03600.1 | Symbols: PSB27 | photosystem II family protein | chr1:898916-899440 FORWARD
+AT2G33800.1 AT2G33800.1 | Symbols: | Ribosomal protein S5 family protein | chr2:14300925-14302352 REVE
+AT5G55660.1 AT5G55660.1 | Symbols: | DEK domain-containing chromatin associated protein | chr5:2253937
+AT3G19650.1 AT3G19650.1 | Symbols: | cyclin-related | chr3:6823543-6825174 FORWARD LENGTH=302
+AT1G01080.1 AT1G01080.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein | chr1:45503-4678
+AT1G76180.1 AT1G76180.1 | Symbols: ERD14 | Dehydrin family protein | chr1:28587013-28587657 REVERSE LE
+AT1G56110.1 AT1G56110.1 | Symbols: NOP56 | homolog of nucleolar protein NOP56 | chr1:20984544-20986893
+AT4G34670.1 AT4G34670.1 | Symbols: | Ribosomal protein S3Ae | chr4:16548724-16550222 FORWARD LENGTH=26
+AT4G27090.1 AT4G27090.1 | Symbols: | Ribosomal protein L14 | chr4:13594104-13595187 REVERSE LENGTH=134
+AT2G13360.1 AT2G13360.1 | Symbols: AGT, AGT1, SGAT | alanine:glyoxylate aminotransferase | chr2:553941
+AT5G08610.1 AT5G08610.1 | Symbols: | P-loop containing nucleoside triphosphate hydrolases superfamily
+AT5G14460.1 AT5G14460.1 | Symbols: | Pseudouridine synthase family protein | chr5:4660239-4662543 REVE
+AT1G18540.1 AT1G18540.1 | Symbols: | Ribosomal protein L6 family protein | chr1:6377448-6378548 REVERS
+AT3G01500.1 AT3G01500.1 | Symbols: CA1, ATBCA1, SABP3, ATSABP3 | carbonic anhydrase 1 | chr3:194853-19
+AT2G23390.1 AT2G23390.1 | Symbols: | CONTAINS InterPro DOMAIN/s: Protein of unknown function DUF482 (I
+AT3G21055.1 AT3G21055.1 | Symbols: PSBTN | photosystem II subunit T | chr3:7376761-7377072 REVERSE LEN
+AT3G06810.1 AT3G06810.1 | Symbols: IBR3 | acyl-CoA dehydrogenase-related | chr3:2146534-2150654 FORWAR
+AT1G27650.1 AT1G27650.1 | Symbols: ATU2AF35A | U2 snRNP auxiliary factor small subunit, putative | chr
+AT2G17360.1 AT2G17360.1 | Symbols: | Ribosomal protein S4 (RPS4A) family protein | chr2:7546598-754813
+AT3G04840.1 AT3G04840.1 | Symbols: | Ribosomal protein S3Ae | chr3:1329751-1331418 FORWARD LENGTH=262
+AT4G10340.1 AT4G10340.1 | Symbols: LHCB5 | light harvesting complex of photosystem II 5 | chr4:6408200
+AT3G09210.1 AT3G09210.1 | Symbols: PTAC13 | plastid transcriptionally active 13 | chr3:2825422-2826850
+AT1G06760.1 AT1G06760.1 | Symbols: | winged-helix DNA-binding transcription factor family protein | ch
+AT3G02220.1 AT3G02220.1 | Symbols: | unknown protein; CONTAINS InterPro DOMAIN/s: Protein of unknown f
+AT2G43550.1 AT2G43550.1 | Symbols: | Scorpion toxin-like knottin superfamily protein | chr2:18073263-1
+AT5G47690.1 AT5G47690.1 | Symbols: | binding | chr5:19317899-19327014 FORWARD LENGTH=1605
+AT3G26420.1 AT3G26420.1 | Symbols: ATRZ-1A | RNA-binding (RRM/RBD/RNP motifs) family protein with retr
+AT1G04480.1 AT1G04480.1 | Symbols: | Ribosomal protein L14p/L23e family protein | chr1:1216110-1217257
+AT4G08580.1 AT4G08580.1 | Symbols: | microfibrillar-associated protein-related | chr4:5462190-5463718
+AT1G79850.1 AT1G79850.1 | Symbols: RPS17, CS17, PRPS17 | ribosomal protein S17 | chr1:30041473-3004192
+AT5G14320.2 AT5G14320.2 | Symbols: | Ribosomal protein S13/S18 family | chr5:4618189-4618772 REVERSE L
+AT3G43980.1 AT3G43980.1 | Symbols: | Ribosomal protein S14p/S29e family protein | chr3:15778555-157792
+AT1G13930.1 AT1G13930.1 | Symbols: | Involved in response to salt stress. Knockout mutants are hyperse
+ATCG00830.1 ATCG00830.1 | Symbols: RPL2.1 | ribosomal protein L2 | chrC:84337-85843 REVERSE LENGTH=274
+AT4G38580.1 AT4G38580.1 | Symbols: ATFP6, HIPP26, FP6 | farnesylated protein 6 | chr4:18034596-1803569
+ATCG00780.1 ATCG00780.1 | Symbols: RPL14 | ribosomal protein L14 | chrC:80696-81064 REVERSE LENGTH=122
+ATCG00770.1 ATCG00770.1 | Symbols: RPS8 | ribosomal protein S8 | chrC:80068-80472 REVERSE LENGTH=134
+AT1G26630.1 AT1G26630.1 | Symbols: FBR12, ATELF5A-2, ELF5A-2 | Eukaryotic translation initiation facto
+AT5G46020.1 AT5G46020.1 | Symbols: | CONTAINS InterPro DOMAIN/s: Casein kinase substrate, phosphoprote
+AT4G19410.1 AT4G19410.1 | Symbols: | Pectinacetylesterase family protein | chr4:10582188-10584766 REVE
+AT1G61780.1 AT1G61780.1 | Symbols: | postsynaptic protein-related | chr1:22812822-22814016 REVERSE LEN
+AT1G53750.1 AT1G53750.1 | Symbols: RPT1A | regulatory particle triple-A 1A | chr1:20065921-20068324 RE
+AT1G18485.1 AT1G18485.1 | Symbols: | Pentatricopeptide repeat (PPR) superfamily protein | chr1:6363172
+AT3G09630.1 AT3G09630.1 | Symbols: | Ribosomal protein L4/L1 family | chr3:2953813-2955444 FORWARD LEN
+AT3G63540.1 AT3G63540.1 | Symbols: | Mog1/PsbP/DUF1795-like photosystem II reaction center PsbP family
+AT1G60650.1 AT1G60650.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein with retrovirus z
+AT4G25550.1 AT4G25550.1 | Symbols: | Cleavage/polyadenylation specificity factor, 25kDa subunit | chr4
+AT5G20010.1 AT5G20010.1 | Symbols: RAN-1, RAN1, ATRAN1 | RAS-related nuclear protein-1 | chr5:6760364-
+AT1G13270.1 AT1G13270.1 | Symbols: MAP1C, MAP1B | methionine aminopeptidase 1B | chr1:4544999-4547155
+AT2G18040.1 AT2G18040.1 | Symbols: PIN1AT | peptidylprolyl cis/trans isomerase, NIMA-interacting 1 | c
+AT1G49975.1 AT1G49975.1 | Symbols: | INVOLVED IN: photosynthesis; LOCATED IN: photosystem I, chloropla
+AT3G13120.1 AT3G13120.1 | Symbols: | Ribosomal protein S10p/S20e family protein | chr3:4220310-4221526
+AT1G67700.1 AT1G67700.1 | Symbols: | unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLV
+AT4G16180.2 AT4G16180.2 | Symbols: | unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLV
+AT1G75350.1 AT1G75350.1 | Symbols: emb2184 | Ribosomal protein L31 | chr1:28272163-28272687 FORWARD LE
+AT4G33670.1 AT4G33670.1 | Symbols: | NAD(P)-linked oxidoreductase superfamily protein | chr4:16169670-
+AT2G01640.1 AT2G01640.1 | Symbols: | unknown protein; Has 51 Blast hits to 51 proteins in 21 species:
+AT1G27090.1 AT1G27090.1 | Symbols: | glycine-rich protein | chr1:9404041-9406098 REVERSE LENGTH=420
+AT2G41475.1 AT2G41475.1 | Symbols: | Embryo-specific protein 3, (ATS3) | chr2:17295259-17296329 REVERS
+AT1G76810.1 AT1G76810.1 | Symbols: | eukaryotic translation initiation factor 2 (eIF-2) family protein
+AT4G23400.1 AT4G23400.1 | Symbols: PIP1D, PIP1;5 | plasma membrane intrinsic protein 1;5 | chr4:122207
+AT4G15545.1 AT4G15545.1 | Symbols: | unknown protein; BEST Arabidopsis thaliana protein match is: unkn
+AT3G50820.1 AT3G50820.1 | Symbols: PSBO2, PSBO-2, OEC33 | photosystem II subunit O-2 | chr3:18891008-1
+AT4G31880.1 AT4G31880.1 | Symbols: | LOCATED IN: cytosol, chloroplast; EXPRESSED IN: 24 plant structur
+AT1G05190.1 AT1G05190.1 | Symbols: emb2394 | Ribosomal protein L6 family | chr1:1502515-1503738 REVERS
+AT1G36730.1 AT1G36730.1 | Symbols: | Translation initiation factor IF2/IF5 | chr1:13898706-13900025 RE
+AT1G77840.1 AT1G77840.1 | Symbols: | Translation initiation factor IF2/IF5 | chr1:29269087-29270400 FO
+AT2G14880.1 AT2G14880.1 | Symbols: | SWIB/MDM2 domain superfamily protein | chr2:6393686-6394841 REVER
+AT2G19870.1 AT2G19870.1 | Symbols: | tRNA/rRNA methyltransferase (SpoU) family protein | chr2:8576034-
+AT2G33730.1 AT2G33730.1 | Symbols: | P-loop containing nucleoside triphosphate hydrolases superfamily
+AT3G49990.1 AT3G49990.1 | Symbols: | unknown protein; Has 1524 Blast hits to 1298 proteins in 225 spec
+AT1G70200.1 AT1G70200.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein | chr1:26432514-2
+AT2G37220.1 AT2G37220.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein | chr2:15634980-1
+AT5G13490.1 AT5G13490.1 | Symbols: AAC2 | ADP/ATP carrier 2 | chr5:4336034-4337379 FORWARD LENGTH=385
+AT2G20420.1 AT2G20420.1 | Symbols: | ATP citrate lyase (ACL) family protein | chr2:8805574-8807858 FOR
+AT3G53460.1 AT3G53460.1 | Symbols: CP29 | chloroplast RNA-binding protein 29 | chr3:19819738-19821423
+AT5G54890.1 AT5G54890.1 | Symbols: | RNA-binding CRS1 / YhbY (CRM) domain-containing protein | chr5:22
+AT1G48920.1 AT1G48920.1 | Symbols: ATNUC-L1, PARL1, NUC-L1 | nucleolin like 1 | chr1:18098186-18101422
+AT1G07160.1 AT1G07160.1 | Symbols: | Protein phosphatase 2C family protein | chr1:2198155-2199678 REVE
+ATCG00330.1 ATCG00330.1 | Symbols: RPS14 | chloroplast ribosomal protein S14 | chrC:36938-37240 REVERS
+ATCG00130.1 ATCG00130.1 | Symbols: ATPF | ATPase, F0 complex, subunit B/B', bacterial/chloroplast | ch
+AT3G15840.1 AT3G15840.1 | Symbols: PIFI | post-illumination chlorophyll fluorescence increase | chr3:5
+AT1G55480.1 AT1G55480.1 | Symbols: ZKT | protein containing PDZ domain, a K-box domain, and a TPR regi
+AT1G06680.1 AT1G06680.1 | Symbols: PSBP-1, OEE2, PSII-P, OE23 | photosystem II subunit P-1 | chr1:2047
+AT5G42980.1 AT5G42980.1 | Symbols: ATTRX3, ATH3, ATTRXH3, TRXH3, TRX3 | thioredoxin 3 | chr5:17242772-
+AT4G32260.1 AT4G32260.1 | Symbols: | ATPase, F0 complex, subunit B/B', bacterial/chloroplast | chr4:15
+AT2G40650.1 AT2G40650.1 | Symbols: | PRP38 family protein | chr2:16963588-16965596 REVERSE LENGTH=355
+AT5G57120.1 AT5G57120.1 | Symbols: | FUNCTIONS IN: molecular_function unknown; INVOLVED IN: biological
+AT1G61520.1 AT1G61520.1 | Symbols: LHCA3 | photosystem I light harvesting complex gene 3 | chr1:227001
+AT4G22010.1 AT4G22010.1 | Symbols: sks4 | SKU5 similar 4 | chr4:11663429-11666463 FORWARD LENGTH=541
+AT3G53420.1 AT3G53420.1 | Symbols: PIP2A, PIP2, PIP2;1 | plasma membrane intrinsic protein 2A | chr3:1
+AT5G20920.1 AT5G20920.1 | Symbols: EIF2 BETA, EMB1401 | eukaryotic translation initiation factor 2 bet
+AT5G10940.1 AT5G10940.1 | Symbols: | transducin family protein / WD-40 repeat family protein | chr5:34
+AT2G01210.1 AT2G01210.1 | Symbols: | Leucine-rich repeat protein kinase family protein | chr2:119509-1
+AT3G62530.1 AT3G62530.1 | Symbols: | ARM repeat superfamily protein | chr3:23132219-23133121 FORWARD L
+AT5G25980.1 AT5G25980.1 | Symbols: TGG2, BGLU37 | glucoside glucohydrolase 2 | chr5:9072730-9075143 FO
+AT3G62120.1 AT3G62120.1 | Symbols: | Class II aaRS and biotin synthetases superfamily protein | chr3:2
+AT1G43170.1 AT1G43170.1 | Symbols: ARP1, emb2207, RPL3A, RP1 | ribosomal protein 1 | chr1:16266992-162
+AT5G11710.1 AT5G11710.1 | Symbols: | ENTH/VHS family protein | chr5:3772981-3776316 FORWARD LENGTH=560
+AT1G29350.1 AT1G29350.1 | Symbols: | Kinase-related protein of unknown function (DUF1296) | chr1:10268
+AT3G56410.1 AT3G56410.1 | Symbols: | Protein of unknown function (DUF3133) | chr3:20916320-20920877 RE
+AT2G02070.1 AT2G02070.1 | Symbols: AtIDD5, IDD5 | indeterminate(ID)-domain 5 | chr2:505523-509154 FORW
+AT2G39140.1 AT2G39140.1 | Symbols: SVR1 | pseudouridine synthase family protein | chr2:16330238-163331
+AT4G09650.1 AT4G09650.1 | Symbols: ATPD | ATP synthase delta-subunit gene | chr4:6100799-6101503 FORWA
+AT1G07790.1 AT1G07790.1 | Symbols: HTB1 | Histone superfamily protein | chr1:2413049-2413495 FORWARD L
+AT5G43310.1 AT5G43310.1 | Symbols: | COP1-interacting protein-related | chr5:17379735-17385387 REVERSE
+AT2G42680.1 AT2G42680.1 | Symbols: MBF1A, ATMBF1A | multiprotein bridging factor 1A | chr2:17774972-17
+AT5G05450.1 AT5G05450.1 | Symbols: | P-loop containing nucleoside triphosphate hydrolases superfamily
+AT2G18960.1 AT2G18960.1 | Symbols: AHA1, PMA, OST2, HA1 | H(+)-ATPase 1 | chr2:8221858-8227268 FORWARD
+AT3G05060.1 AT3G05060.1 | Symbols: | NOP56-like pre RNA processing ribonucleoprotein | chr3:1413174-14
+AT1G10630.1 AT1G10630.1 | Symbols: ATARFA1F, ARFA1F | ADP-ribosylation factor A1F | chr1:3513189-35142
+AT1G08360.1 AT1G08360.1 | Symbols: | Ribosomal protein L1p/L10e family | chr1:2636231-2637694 FORWARD
+AT2G30520.1 AT2G30520.1 | Symbols: RPT2 | Phototropic-responsive NPH3 family protein | chr2:13002920-1
+AT5G15200.1 AT5G15200.1 | Symbols: | Ribosomal protein S4 | chr5:4935124-4936334 REVERSE LENGTH=198
+AT1G30420.1 AT1G30420.1 | Symbols: ATMRP12, MRP12, ABCC11 | multidrug resistance-associated protein 12
+AT3G55330.1 AT3G55330.1 | Symbols: PPL1 | PsbP-like protein 1 | chr3:20514031-20515275 REVERSE LENGTH=
+AT4G34620.1 AT4G34620.1 | Symbols: SSR16 | small subunit ribosomal protein 16 | chr4:16535084-16536092
+AT4G13850.1 AT4G13850.1 | Symbols: ATGRP2, GR-RBP2, GRP2 | glycine-rich RNA-binding protein 2 | chr4:8
+AT1G79040.1 AT1G79040.1 | Symbols: PSBR | photosystem II subunit R | chr1:29736085-29736781 FORWARD LE
+AT5G01590.1 AT5G01590.1 | Symbols: | unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLV
+AT5G17760.1 AT5G17760.1 | Symbols: | P-loop containing nucleoside triphosphate hydrolases superfamily
+AT4G21450.1 AT4G21450.1 | Symbols: | PapD-like superfamily protein | chr4:11426136-11428125 FORWARD LE
+AT3G14590.1 AT3G14590.1 | Symbols: NTMC2TYPE6.2, NTMC2T6.2 | Calcium-dependent lipid-binding (CaLB dom
+AT2G41510.1 AT2G41510.1 | Symbols: ATCKX1, CKX1 | cytokinin oxidase/dehydrogenase 1 | chr2:17314626-17
+AT5G09440.1 AT5G09440.1 | Symbols: EXL4 | EXORDIUM like 4 | chr5:2938397-2939233 FORWARD LENGTH=278
+AT1G57830.1 AT1G57830.1 | Symbols: | Toll-Interleukin-Resistance (TIR) domain family protein | chr1:21
+AT1G04270.1 AT1G04270.1 | Symbols: RPS15 | cytosolic ribosomal protein S15 | chr1:1141852-1142960 REVE
+AT1G77340.1 AT1G77340.1 | Symbols: | Pentatricopeptide repeat (PPR) superfamily protein | chr1:2906862
+AT2G42740.1 AT2G42740.1 | Symbols: RPL16A | ribosomal protein large subunit 16A | chr2:17791794-177929
+AT1G28010.1 AT1G28010.1 | Symbols: PGP14, ATABCB14, ABCB14 | P-glycoprotein 14 | chr1:9763436-9767917
+AT2G26180.1 AT2G26180.1 | Symbols: IQD6 | IQ-domain 6 | chr2:11143433-11144982 REVERSE LENGTH=416
+AT5G14040.1 AT5G14040.1 | Symbols: PHT3;1 | phosphate transporter 3;1 | chr5:4531059-4532965 REVERSE L
+AT5G41990.1 AT5G41990.1 | Symbols: WNK8, ATWNK8 | with no lysine (K) kinase 8 | chr5:16795085-16797562
+AT1G80480.1 AT1G80480.1 | Symbols: PTAC17 | plastid transcriptionally active 17 | chr1:30258272-302605
+AT3G03950.1 AT3G03950.1 | Symbols: ECT1 | evolutionarily conserved C-terminal region 1 | chr3:1021502-
+AT4G01870.1 AT4G01870.1 | Symbols: | tolB protein-related | chr4:808473-810431 REVERSE LENGTH=652
+AT2G19460.1 AT2G19460.1 | Symbols: | Protein of unknown function (DUF3511) | chr2:8431581-8431931 FORW
+AT3G18580.1 AT3G18580.1 | Symbols: | Nucleic acid-binding, OB-fold-like protein | chr3:6396940-6398068
+AT5G59950.1 AT5G59950.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein | chr5:24140235-2
+AT2G16780.1 AT2G16780.1 | Symbols: MSI2, MSI02, NFC02, NFC2 | Transducin family protein / WD-40 repeat
+AT1G06560.1 AT1G06560.1 | Symbols: | NOL1/NOP2/sun family protein | chr1:2007660-2011824 FORWARD LENGT
+AT3G60040.1 AT3G60040.1 | Symbols: | F-box family protein | chr3:22175937-22179728 REVERSE LENGTH=838
+AT5G49120.1 AT5G49120.1 | Symbols: | Protein of unknown function (DUF581) | chr5:19908800-19909332 REV
+AT1G10590.1 AT1G10590.1 | Symbols: | Nucleic acid-binding, OB-fold-like protein | chr1:3502324-3502991
+AT4G15802.1 AT4G15802.1 | Symbols: HSBP, AtHSBP | heat shock factor binding protein | chr4:8986864-898
+AT3G23080.1 AT3G23080.1 | Symbols: | Polyketide cyclase/dehydrase and lipid transport superfamily prot
+AT2G05920.1 AT2G05920.1 | Symbols: | Subtilase family protein | chr2:2269831-2272207 REVERSE LENGTH=75
+AT5G44700.1 AT5G44700.1 | Symbols: EDA23, GSO2 | Leucine-rich repeat transmembrane protein kinase | ch
+AT1G49780.1 AT1G49780.1 | Symbols: PUB26 | plant U-box 26 | chr1:18429024-18430289 REVERSE LENGTH=421
+AT4G24770.1 AT4G24770.1 | Symbols: RBP31, ATRBP31, CP31, ATRBP33 | 31-kDa RNA binding protein | chr4:1
+AT3G04520.1 AT3G04520.1 | Symbols: THA2 | threonine aldolase 2 | chr3:1217397-1219571 REVERSE LENGTH=3
+AT1G08520.1 AT1G08520.1 | Symbols: ALB1, ALB-1V, V157, PDE166, CHLD | ALBINA 1 | chr1:2696538-2700819
+AT5G03640.1 AT5G03640.1 | Symbols: | Protein kinase superfamily protein | chr5:927915-930781 FORWARD L
+AT5G14910.1 AT5G14910.1 | Symbols: | Heavy metal transport/detoxification superfamily protein | chr5:4
+AT5G54740.1 AT5G54740.1 | Symbols: SESA5 | seed storage albumin 5 | chr5:22238640-22239137 REVERSE LEN
+AT3G47470.1 AT3G47470.1 | Symbols: LHCA4, CAB4 | light-harvesting chlorophyll-protein complex I subuni
+AT3G50530.1 AT3G50530.1 | Symbols: CRK | CDPK-related kinase | chr3:18753833-18756487 FORWARD LENGTH=6
+AT4G03280.1 AT4G03280.1 | Symbols: PETC, PGR1 | photosynthetic electron transfer C | chr4:1440314-1441
+AT2G33210.1 AT2G33210.1 | Symbols: HSP60-2 | heat shock protein 60-2 | chr2:14075093-14078568 REVERSE
+AT2G37190.1 AT2G37190.1 | Symbols: | Ribosomal protein L11 family protein | chr2:15619559-15620059 REV
+AT4G31210.1 AT4G31210.1 | Symbols: | DNA topoisomerase, type IA, core | chr4:15165280-15172534 FORWARD
+AT5G58290.1 AT5G58290.1 | Symbols: RPT3 | regulatory particle triple-A ATPase 3 | chr5:23569155-235711
+AT2G06850.1 AT2G06850.1 | Symbols: EXGT-A1, EXT, XTH4 | xyloglucan endotransglucosylase/hydrolase 4 |
+AT5G09510.1 AT5G09510.1 | Symbols: | Ribosomal protein S19 family protein | chr5:2955698-2956554 REVER
+AT2G01250.1 AT2G01250.1 | Symbols: | Ribosomal protein L30/L7 family protein | chr2:132943-134264 REVE
+AT1G67230.1 AT1G67230.1 | Symbols: LINC1 | little nuclei1 | chr1:25151561-25156032 REVERSE LENGTH=1132
+ATCG00470.1 ATCG00470.1 | Symbols: ATPE | ATP synthase epsilon chain | chrC:52265-52663 REVERSE LENGTH
+AT1G33970.1 AT1G33970.1 | Symbols: | P-loop containing nucleoside triphosphate hydrolases superfamily
+AT3G18190.1 AT3G18190.1 | Symbols: | TCP-1/cpn60 chaperonin family protein | chr3:6232226-6233836 FORW
+AT5G66490.1 AT5G66490.1 | Symbols: | unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLV
+AT1G04780.1 AT1G04780.1 | Symbols: | Ankyrin repeat family protein | chr1:1340891-1342965 REVERSE LENG
+AT5G16760.1 AT5G16760.1 | Symbols: | Inositol 1,3,4-trisphosphate 5/6-kinase family protein | chr5:550
+AT4G32590.1 AT4G32590.1 | Symbols: | 2Fe-2S ferredoxin-like superfamily protein | chr4:15721417-157227
+AT1G72090.1 AT1G72090.1 | Symbols: | Methylthiotransferase | chr1:27123617-27126767 FORWARD LENGTH=601
+AT5G23490.1 AT5G23490.1 | Symbols: | unknown protein; BEST Arabidopsis thaliana protein match is: unkn
+AT1G74350.1 AT1G74350.1 | Symbols: | Intron maturase, type II family protein | chr1:27949022-27951283
+AT3G20250.1 AT3G20250.1 | Symbols: APUM5, PUM5 | pumilio 5 | chr3:7059098-7062660 REVERSE LENGTH=961
+AT1G27180.1 AT1G27180.1 | Symbols: | disease resistance protein (TIR-NBS-LRR class), putative | chr1:9
+AT1G77780.1 AT1G77780.1 | Symbols: | Glycosyl hydrolase superfamily protein | chr1:29248437-29249528 R
+AT3G53500.1 AT3G53500.1 | Symbols: RSZ32, RS2Z32, At-RS2Z | RNA-binding (RRM/RBD/RNP motifs) family pr
+AT3G10950.1 AT3G10950.1 | Symbols: | Zinc-binding ribosomal protein family protein | chr3:3423893-3424
+AT2G20580.1 AT2G20580.1 | Symbols: RPN1A, ATRPN1A | 26S proteasome regulatory subunit S2 1A | chr2:885
+AT1G11190.1 AT1G11190.1 | Symbols: BFN1, ENDO1 | bifunctional nuclease i | chr1:3750338-3752696 REVERS
+AT1G65810.1 AT1G65810.1 | Symbols: | P-loop containing nucleoside triphosphate hydrolases superfamily
+ATCG00650.1 ATCG00650.1 | Symbols: RPS18 | ribosomal protein S18 | chrC:67917-68222 FORWARD LENGTH=101
+AT2G24030.1 AT2G24030.1 | Symbols: | zinc ion binding;nucleic acid binding | chr2:10220183-10222010 RE
+AT3G63490.1 AT3G63490.1 | Symbols: | Ribosomal protein L1p/L10e family | chr3:23444269-23446020 FORWAR
+AT1G02850.1 AT1G02850.1 | Symbols: BGLU11 | beta glucosidase 11 | chr1:630569-633085 FORWARD LENGTH=47
+AT5G49360.1 AT5G49360.1 | Symbols: BXL1, ATBXL1 | beta-xylosidase 1 | chr5:20012179-20016659 REVERSE L
+AT2G24440.1 AT2G24440.1 | Symbols: | selenium binding | chr2:10391124-10392492 FORWARD LENGTH=183
+AT5G22360.1 AT5G22360.1 | Symbols: ATVAMP714, VAMP714 | vesicle-associated membrane protein 714 | chr5
+AT1G58220.1 AT1G58220.1 | Symbols: | Homeodomain-like superfamily protein | chr1:21558388-21562669 REV
+AT3G58430.1 AT3G58430.1 | Symbols: | TRAF-like family protein | chr3:21613163-21616174 REVERSE LENGTH=
+AT5G06690.1 AT5G06690.1 | Symbols: WCRKC1 | WCRKC thioredoxin 1 | chr5:2060651-2061956 REVERSE LENGTH=
+AT1G66260.1 AT1G66260.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein | chr1:24695895-2
+AT5G07830.1 AT5G07830.1 | Symbols: AtGUS2, GUS2 | glucuronidase 2 | chr5:2504168-2506567 FORWARD LENGT
+AT5G17440.1 AT5G17440.1 | Symbols: | LUC7 related protein | chr5:5749849-5753415 FORWARD LENGTH=404
+AT4G14300.1 AT4G14300.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein | chr4:8231179-82
+AT5G04110.1 AT5G04110.1 | Symbols: GYRB3 | DNA GYRASE B3 | chr5:1110757-1114112 REVERSE LENGTH=546
+ATCG00280.1 ATCG00280.1 | Symbols: PSBC | photosystem II reaction center protein C | chrC:33720-35141
+AT5G20630.1 AT5G20630.1 | Symbols: GLP3, GLP3A, GLP3B, ATGER3, GER3 | germin 3 | chr5:6975315-6975950
+AT2G03420.1 AT2G03420.1 | Symbols: | unknown protein; Has 38 Blast hits to 38 proteins in 17 species:
+AT1G23310.1 AT1G23310.1 | Symbols: GGT1, AOAT1, GGAT1 | glutamate:glyoxylate aminotransferase | chr1:8
+AT2G43110.1 AT2G43110.1 | Symbols: | unknown protein; Has 212 Blast hits to 211 proteins in 96 species
+AT3G05760.1 AT3G05760.1 | Symbols: | C2H2 and C2HC zinc fingers superfamily protein | chr3:1707981-170
+AT1G73010.1 AT1G73010.1 | Symbols: ATPS2, PS2 | phosphate starvation-induced gene 2 | chr1:27464780-27
+AT4G36140.1 AT4G36140.1 | Symbols: | disease resistance protein (TIR-NBS-LRR class), putative | chr4:1
+AT3G48560.1 AT3G48560.1 | Symbols: CSR1, ALS, AHAS, TZP5, IMR1 | chlorsulfuron/imidazolinone resistant
+AT4G24280.1 AT4G24280.1 | Symbols: cpHsc70-1 | chloroplast heat shock protein 70-1 | chr4:12590094-125
+AT1G02780.1 AT1G02780.1 | Symbols: emb2386 | Ribosomal protein L19e family protein | chr1:608120-60939
+AT2G03270.1 AT2G03270.1 | Symbols: | DNA-binding protein, putative | chr2:994071-995990 FORWARD LENGTH
+AT3G20080.1 AT3G20080.1 | Symbols: CYP705A15 | cytochrome P450, family 705, subfamily A, polypeptide 1
+AT1G30730.1 AT1G30730.1 | Symbols: | FAD-binding Berberine family protein | chr1:10900854-10902434 FOR
+AT5G01020.1 AT5G01020.1 | Symbols: | Protein kinase superfamily protein | chr5:6309-8270 REVERSE LENGT
+AT3G48930.1 AT3G48930.1 | Symbols: EMB1080 | Nucleic acid-binding, OB-fold-like protein | chr3:1814101
+AT1G73530.1 AT1G73530.1 | Symbols: | RNA-binding (RRM/RBD/RNP motifs) family protein | chr1:27643801-2
+AT4G01970.1 AT4G01970.1 | Symbols: AtSTS, STS | stachyose synthase | chr4:854073-856953 REVERSE LENGTH
+AT5G46290.1 AT5G46290.1 | Symbols: KASI, KAS1 | 3-ketoacyl-acyl carrier protein synthase I | chr5:1877
+AT2G10450.1 AT2G10450.1 | Symbols: | 14-3-3 family protein | chr2:4020305-4020773 FORWARD LENGTH=82
+AT1G43171.1 AT1G43171.1 | Symbols: | unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLV
+AT1G22630.1 AT1G22630.1 | Symbols: | unknown protein; LOCATED IN: chloroplast; EXPRESSED IN: 21 plant
+AT5G22640.1 AT5G22640.1 | Symbols: emb1211 | MORN (Membrane Occupation and Recognition Nexus) repeat-c
+AT5G58270.1 AT5G58270.1 | Symbols: STA1, ATATM3, ATM3 | ABC transporter of the mitochondrion 3 | chr5:
+AT1G58380.1 AT1G58380.1 | Symbols: XW6 | Ribosomal protein S5 family protein | chr1:21689115-21690085
+AT1G54270.1 AT1G54270.1 | Symbols: EIF4A-2 | eif4a-2 | chr1:20260495-20262018 FORWARD LENGTH=412
+AT4G26590.1 AT4G26590.1 | Symbols: ATOPT5, OPT5 | oligopeptide transporter 5 | chr4:13414134-13416850
+AT1G10522.1 AT1G10522.1 | Symbols: | unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLV
+AT5G61720.1 AT5G61720.1 | Symbols: | Protein of unknown function (DUF1216) | chr5:24801621-24803006 FO
+AT2G38060.1 AT2G38060.1 | Symbols: PHT4;2 | phosphate transporter 4;2 | chr2:15922727-15925623 REVERSE
+AT1G02220.1 AT1G02220.1 | Symbols: ANAC003, NAC003 | NAC domain containing protein 3 | chr1:428902-430
+AT4G10450.1 AT4G10450.1 | Symbols: | Ribosomal protein L6 family | chr4:6463201-6464458 REVERSE LENGTH
+AT2G27710.1 AT2G27710.1 | Symbols: | 60S acidic ribosomal protein family | chr2:11816929-11817670 FORW
+AT3G17360.1 AT3G17360.1 | Symbols: POK1 | phragmoplast orienting kinesin 1 | chr3:5936108-5946205 FORW
+AT5G55590.1 AT5G55590.1 | Symbols: QRT1 | Pectin lyase-like superfamily protein | chr5:22519911-225216
+AT1G30810.1 AT1G30810.1 | Symbols: | Transcription factor jumonji (jmj) family protein / zinc finger (
+AT4G28990.1 AT4G28990.1 | Symbols: | RNA-binding protein-related | chr4:14291205-14293018 FORWARD LENG
+AT1G16860.1 AT1G16860.1 | Symbols: | Ubiquitin-specific protease family C19-related protein | chr1:576
+AT3G54670.1 AT3G54670.1 | Symbols: TTN8, SMC1, ATSMC1 | Structural maintenance of chromosomes (SMC) fa
+AT4G34215.1 AT4G34215.1 | Symbols: | Domain of unknown function (DUF303) | chr4:16380203-16381192 REVE
+AT4G10840.1 AT4G10840.1 | Symbols: | Tetratricopeptide repeat (TPR)-like superfamily protein | chr4:66
+AT1G48090.1 AT1G48090.1 | Symbols: | calcium-dependent lipid-binding family protein | chr1:17732582-17
