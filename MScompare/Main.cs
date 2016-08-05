@@ -44,8 +44,12 @@ namespace MScompare
                 {
                     Match mat = Regex.Match(line, regexstr);
                     String id = mat.Value;
-                    Item item = new Item(id, line);
-                    Content.Add(item);
+                    if (id.Length>0)
+                    {
+                        String cont = line.Replace(id, "$");
+                        Item item = new Item(id, cont);
+                        Content.Add(item);
+                    }
                 }
             }
         }
@@ -65,9 +69,11 @@ namespace MScompare
             if (this.importDialog.ShowDialog() == DialogResult.OK)
             {
                 MSset curMSset = new MSset();
+                int num = SRC.Count();
+                String ShowName = "#"+num.ToString()+"_"+Path.GetFileNameWithoutExtension(importDialog.FileName)+"#";
                 curMSset.readFile(importDialog.FileName, RegexText.Text);
-                Src.Items.Add(curMSset.Name);
                 SRC.Add(curMSset);
+                Src.Items.Add(ShowName);
 
                 foreach (MSset.Item line in curMSset.Content)
                 {
@@ -76,6 +82,82 @@ namespace MScompare
                     SrcView.Rows[index].Cells[1].Value = line.dcpt;
                 }
             }
+        }
+
+        private void Src_SelectedIndexChanged(object sender, EventArgs e)
+        {   
+            int index = Src.SelectedIndex;
+            if (index>=0)
+            {
+                SrcView.Rows.Clear();
+                foreach (MSset.Item line in SRC[index].Content)
+                {
+                    int i = SrcView.Rows.Add();
+                    SrcView.Rows[i].Cells[0].Value = line.name;
+                    SrcView.Rows[i].Cells[1].Value = line.dcpt;
+                }
+            }
+        }
+
+        private void ClearAll_Click(object sender, EventArgs e)
+        {
+            MessageBoxButtons messButton = MessageBoxButtons.OKCancel;
+            DialogResult dr = MessageBox.Show("Sure to clear all?", "WARNING", messButton, MessageBoxIcon.Warning);
+            if (dr == DialogResult.OK)
+            {
+                SrcView.Rows.Clear();
+                Src.Items.Clear();
+                SRC = new List<MSset>();
+            }
+        }
+
+        private void Delete_Click(object sender, EventArgs e)
+        {
+            int index = Src.SelectedIndex;
+            if (index<0)
+            {
+                MessageBox.Show("Please select a item in list first.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                Src.Items.RemoveAt(index);
+                SrcView.Rows.Clear();
+                if (index < SRC.Count() - 1)
+                {
+                    SRC.RemoveAt(index);
+                    for (int i = index; i < SRC.Count(); i++)
+                    {
+                        Src.Items[i] = "#" + i.ToString() + "_" + SRC[i].Name + "#";
+                    }
+                }
+                else
+                    SRC.RemoveAt(index);
+            }
+        }
+
+        private void Src_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                int index = Src.SelectedIndex;
+                if (index >= 0)
+                    SrcContext.Show(MousePosition.X, MousePosition.Y);
+            }
+        }
+
+        private void renameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int index = Src.SelectedIndex;
+            Rename RNform = new Rename(this);
+            RNform.rn_input.Text = SRC[index].Name;
+            RNform.Show();
+            this.Enabled = false;
+        }
+        public void newname(String newname)
+        {
+            int i = Src.SelectedIndex;
+            SRC[i].Name = newname;
+            Src.Items[i] = "#" + i.ToString() + "_" + SRC[i].Name + "#";
         }
     }
 }

@@ -54,7 +54,6 @@
             // 
             // Src
             // 
-            this.Src.ContextMenuStrip = this.SrcContext;
             this.Src.FormattingEnabled = true;
             this.Src.HorizontalScrollbar = true;
             this.Src.ItemHeight = 18;
@@ -62,6 +61,8 @@
             this.Src.Name = "Src";
             this.Src.Size = new System.Drawing.Size(145, 292);
             this.Src.TabIndex = 1;
+            this.Src.SelectedIndexChanged += new System.EventHandler(this.Src_SelectedIndexChanged);
+            this.Src.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Src_MouseDown);
             // 
             // SrcContext
             // 
@@ -75,8 +76,9 @@
             // renameToolStripMenuItem
             // 
             this.renameToolStripMenuItem.Name = "renameToolStripMenuItem";
-            this.renameToolStripMenuItem.Size = new System.Drawing.Size(163, 30);
+            this.renameToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
             this.renameToolStripMenuItem.Text = "Rename";
+            this.renameToolStripMenuItem.Click += new System.EventHandler(this.renameToolStripMenuItem_Click);
             // 
             // insertToolStripMenuItem
             // 
@@ -137,6 +139,7 @@
             this.Delete.TabIndex = 8;
             this.Delete.Text = "Delete";
             this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
             // ClearAll
             // 
@@ -146,6 +149,7 @@
             this.ClearAll.TabIndex = 9;
             this.ClearAll.Text = "Clear All";
             this.ClearAll.UseVisualStyleBackColor = true;
+            this.ClearAll.Click += new System.EventHandler(this.ClearAll_Click);
             // 
             // RegexText
             // 
@@ -173,11 +177,13 @@
             // 
             this.ID.HeaderText = "ID";
             this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
             // 
             // dcpt
             // 
             this.dcpt.HeaderText = "Description";
             this.dcpt.Name = "dcpt";
+            this.dcpt.ReadOnly = true;
             this.dcpt.Width = 200;
             // 
             // label1
@@ -216,6 +222,7 @@
             this.Controls.Add(this.Formula);
             this.Controls.Add(this.Src);
             this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Elementary Calculator for MS";
             this.Load += new System.EventHandler(this.Main_Load);
             this.SrcContext.ResumeLayout(false);
