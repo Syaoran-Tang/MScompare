@@ -29,11 +29,13 @@ namespace MScompare
             }
             public String Name;
             public List<Item> Content;
+            public List<String> Index;
 
             public MSset()
             {
                 Name = "";
                 Content = new List<Item>();
+                Index = new List<String>();
             }
             public void readFile(String FilePath,String regexstr)
             {
@@ -49,11 +51,13 @@ namespace MScompare
                         String cont = line.Replace(id, "$");
                         Item item = new Item(id, cont);
                         Content.Add(item);
+                        Index.Add(id);
                     }
                 }
             }
         }
         public List<MSset> SRC;
+        public List<String> AnsList;
         public Main()
         {
             InitializeComponent();
@@ -61,7 +65,7 @@ namespace MScompare
         private void Main_Load(object sender, EventArgs e)
         {
             SRC = new List<MSset>();
-
+            AnsList = new List<String>();
         }
         private void Import_Click(object sender, EventArgs e)
         {
@@ -158,6 +162,34 @@ namespace MScompare
             int i = Src.SelectedIndex;
             SRC[i].Name = newname;
             Src.Items[i] = "#" + i.ToString() + "_" + SRC[i].Name + "#";
+        }
+        private void insertToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Formula.Text += Src.SelectedItem.ToString();
+        }
+        private void Calculate_Click(object sender, EventArgs e)
+        {
+            RPN calcu = new RPN(Formula.Text, SRC);
+            AnsList=calcu.Evaluate();
+            foreach (String ans in AnsList)
+            {
+                Result.Items.Add(ans);
+            }
+        }
+
+        private void inter_Click(object sender, EventArgs e)
+        {
+            Formula.Text += @"&";
+        }
+
+        private void union_Click(object sender, EventArgs e)
+        {
+            Formula.Text += @"+";
+        }
+
+        private void except_Click(object sender, EventArgs e)
+        {
+            Formula.Text += @"-";
         }
     }
 }
