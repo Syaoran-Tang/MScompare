@@ -101,6 +101,7 @@ namespace MScompare
                     SrcView.Rows[i].Cells[1].Value = line.dcpt;
                 }
             }
+            src_num.Text = SRC[index].Content.Count().ToString();
         }
 
         private void ClearAll_Click(object sender, EventArgs e)
@@ -175,21 +176,44 @@ namespace MScompare
             {
                 Result.Items.Add(ans);
             }
+            result_num.Text = AnsList.Count().ToString();
         }
 
         private void inter_Click(object sender, EventArgs e)
         {
-            Formula.Text += @"&";
+            Formula.Paste(@"&");
         }
 
         private void union_Click(object sender, EventArgs e)
         {
-            Formula.Text += @"+";
+            Formula.Paste(@"+");
         }
 
         private void except_Click(object sender, EventArgs e)
         {
-            Formula.Text += @"-";
+            Formula.Paste(@"-");
+        }
+
+        private void Export_Click(object sender, EventArgs e)
+        {
+            this.exportDialog.Filter = "ASCII File(*.txt)|*.txt";
+            if (this.exportDialog.ShowDialog() == DialogResult.OK)
+            {
+                StreamWriter sw = new StreamWriter(exportDialog.FileName, true);
+                foreach (String re in Result.Items)
+                    sw.WriteLine(re+"\r\n");
+                sw.Close();
+            }
+        }
+
+        private void leftbrac_Click(object sender, EventArgs e)
+        {
+            Formula.Paste(@"(");
+        }
+
+        private void rightbrac_Click(object sender, EventArgs e)
+        {
+            Formula.Paste(@")");
         }
     }
 }

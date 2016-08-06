@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.Src = new System.Windows.Forms.ListBox();
             this.SrcContext = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.renameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,20 +51,31 @@
             this.inter = new System.Windows.Forms.Button();
             this.union = new System.Windows.Forms.Button();
             this.except = new System.Windows.Forms.Button();
+            this.ResultGroup = new System.Windows.Forms.GroupBox();
+            this.result_num = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.src_num = new System.Windows.Forms.Label();
+            this.ViewGroup = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.leftbrac = new System.Windows.Forms.Button();
+            this.rightbrac = new System.Windows.Forms.Button();
             this.SrcContext.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SrcView)).BeginInit();
+            this.ResultGroup.SuspendLayout();
+            this.ViewGroup.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Src
             // 
+            resources.ApplyResources(this.Src, "Src");
             this.Src.FormattingEnabled = true;
-            this.Src.HorizontalScrollbar = true;
-            this.Src.ItemHeight = 24;
-            this.Src.Location = new System.Drawing.Point(222, 40);
-            this.Src.Margin = new System.Windows.Forms.Padding(4);
             this.Src.Name = "Src";
-            this.Src.Size = new System.Drawing.Size(137, 388);
-            this.Src.TabIndex = 1;
             this.Src.SelectedIndexChanged += new System.EventHandler(this.Src_SelectedIndexChanged);
             this.Src.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Src_MouseDown);
             // 
@@ -74,203 +86,234 @@
             this.renameToolStripMenuItem,
             this.insertToolStripMenuItem});
             this.SrcContext.Name = "SrcContext";
-            this.SrcContext.Size = new System.Drawing.Size(164, 64);
+            resources.ApplyResources(this.SrcContext, "SrcContext");
             // 
             // renameToolStripMenuItem
             // 
             this.renameToolStripMenuItem.Name = "renameToolStripMenuItem";
-            this.renameToolStripMenuItem.Size = new System.Drawing.Size(163, 30);
-            this.renameToolStripMenuItem.Text = "Rename";
+            resources.ApplyResources(this.renameToolStripMenuItem, "renameToolStripMenuItem");
             this.renameToolStripMenuItem.Click += new System.EventHandler(this.renameToolStripMenuItem_Click);
             // 
             // insertToolStripMenuItem
             // 
             this.insertToolStripMenuItem.Name = "insertToolStripMenuItem";
-            this.insertToolStripMenuItem.Size = new System.Drawing.Size(163, 30);
-            this.insertToolStripMenuItem.Text = "Insert";
+            resources.ApplyResources(this.insertToolStripMenuItem, "insertToolStripMenuItem");
             this.insertToolStripMenuItem.Click += new System.EventHandler(this.insertToolStripMenuItem_Click);
             // 
             // Formula
             // 
-            this.Formula.Location = new System.Drawing.Point(303, 513);
-            this.Formula.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.Formula, "Formula");
             this.Formula.Name = "Formula";
-            this.Formula.Size = new System.Drawing.Size(528, 31);
-            this.Formula.TabIndex = 3;
             // 
             // Result
             // 
+            resources.ApplyResources(this.Result, "Result");
             this.Result.FormattingEnabled = true;
-            this.Result.HorizontalScrollbar = true;
-            this.Result.ItemHeight = 24;
-            this.Result.Location = new System.Drawing.Point(1011, 40);
-            this.Result.Margin = new System.Windows.Forms.Padding(4);
             this.Result.Name = "Result";
-            this.Result.Size = new System.Drawing.Size(147, 388);
-            this.Result.TabIndex = 4;
             // 
             // Calculate
             // 
-            this.Calculate.Location = new System.Drawing.Point(860, 494);
-            this.Calculate.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.Calculate, "Calculate");
             this.Calculate.Name = "Calculate";
-            this.Calculate.Size = new System.Drawing.Size(127, 50);
-            this.Calculate.TabIndex = 5;
-            this.Calculate.Text = "Calculate";
             this.Calculate.UseVisualStyleBackColor = true;
             this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // Export
             // 
-            this.Export.Location = new System.Drawing.Point(1023, 494);
-            this.Export.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.Export, "Export");
             this.Export.Name = "Export";
-            this.Export.Size = new System.Drawing.Size(135, 50);
-            this.Export.TabIndex = 6;
-            this.Export.Text = "Export";
             this.Export.UseVisualStyleBackColor = true;
+            this.Export.Click += new System.EventHandler(this.Export_Click);
             // 
             // Import
             // 
-            this.Import.Location = new System.Drawing.Point(63, 91);
-            this.Import.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.Import, "Import");
             this.Import.Name = "Import";
-            this.Import.Size = new System.Drawing.Size(116, 47);
-            this.Import.TabIndex = 7;
-            this.Import.Text = "Import";
             this.Import.UseVisualStyleBackColor = true;
             this.Import.Click += new System.EventHandler(this.Import_Click);
             // 
             // Delete
             // 
-            this.Delete.Location = new System.Drawing.Point(63, 246);
-            this.Delete.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.Delete, "Delete");
             this.Delete.Name = "Delete";
-            this.Delete.Size = new System.Drawing.Size(116, 46);
-            this.Delete.TabIndex = 8;
-            this.Delete.Text = "Delete";
             this.Delete.UseVisualStyleBackColor = true;
             this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
             // ClearAll
             // 
-            this.ClearAll.Location = new System.Drawing.Point(63, 331);
-            this.ClearAll.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.ClearAll, "ClearAll");
             this.ClearAll.Name = "ClearAll";
-            this.ClearAll.Size = new System.Drawing.Size(116, 44);
-            this.ClearAll.TabIndex = 9;
-            this.ClearAll.Text = "Clear All";
             this.ClearAll.UseVisualStyleBackColor = true;
             this.ClearAll.Click += new System.EventHandler(this.ClearAll_Click);
             // 
             // RegexText
             // 
-            this.RegexText.Location = new System.Drawing.Point(303, 458);
-            this.RegexText.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.RegexText, "RegexText");
             this.RegexText.Name = "RegexText";
-            this.RegexText.Size = new System.Drawing.Size(207, 31);
-            this.RegexText.TabIndex = 11;
-            this.RegexText.Text = "AT(\\d{1})G(\\d{5}\\.\\d{1})";
             // 
             // SrcView
             // 
             this.SrcView.AllowUserToAddRows = false;
+            resources.ApplyResources(this.SrcView, "SrcView");
             this.SrcView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.SrcView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this.dcpt});
-            this.SrcView.Location = new System.Drawing.Point(394, 39);
-            this.SrcView.Margin = new System.Windows.Forms.Padding(4);
             this.SrcView.MultiSelect = false;
             this.SrcView.Name = "SrcView";
             this.SrcView.RowHeadersVisible = false;
             this.SrcView.RowTemplate.Height = 30;
-            this.SrcView.Size = new System.Drawing.Size(579, 389);
-            this.SrcView.TabIndex = 12;
             // 
             // ID
             // 
             this.ID.FillWeight = 34.72222F;
-            this.ID.HeaderText = "ID";
+            resources.ApplyResources(this.ID, "ID");
             this.ID.Name = "ID";
             // 
             // dcpt
             // 
             this.dcpt.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dcpt.FillWeight = 165.2778F;
-            this.dcpt.HeaderText = "Description";
+            resources.ApplyResources(this.dcpt, "dcpt");
             this.dcpt.Name = "dcpt";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(229, 458);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 24);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "RegEx:";
             // 
             // inter
             // 
-            this.inter.Location = new System.Drawing.Point(33, 440);
+            resources.ApplyResources(this.inter, "inter");
             this.inter.Name = "inter";
-            this.inter.Size = new System.Drawing.Size(137, 42);
-            this.inter.TabIndex = 15;
-            this.inter.Text = "Intersect(&&)";
             this.inter.UseVisualStyleBackColor = true;
             this.inter.Click += new System.EventHandler(this.inter_Click);
             // 
             // union
             // 
-            this.union.Location = new System.Drawing.Point(33, 501);
+            resources.ApplyResources(this.union, "union");
             this.union.Name = "union";
-            this.union.Size = new System.Drawing.Size(137, 36);
-            this.union.TabIndex = 16;
-            this.union.Text = "Union(+)";
             this.union.UseVisualStyleBackColor = true;
             this.union.Click += new System.EventHandler(this.union_Click);
             // 
             // except
             // 
-            this.except.Location = new System.Drawing.Point(33, 556);
+            resources.ApplyResources(this.except, "except");
             this.except.Name = "except";
-            this.except.Size = new System.Drawing.Size(137, 39);
-            this.except.TabIndex = 17;
-            this.except.Text = "Except(-)";
             this.except.UseVisualStyleBackColor = true;
             this.except.Click += new System.EventHandler(this.except_Click);
             // 
+            // ResultGroup
+            // 
+            resources.ApplyResources(this.ResultGroup, "ResultGroup");
+            this.ResultGroup.Controls.Add(this.result_num);
+            this.ResultGroup.Controls.Add(this.label2);
+            this.ResultGroup.Controls.Add(this.Result);
+            this.ResultGroup.Controls.Add(this.Export);
+            this.ResultGroup.Name = "ResultGroup";
+            this.ResultGroup.TabStop = false;
+            // 
+            // result_num
+            // 
+            resources.ApplyResources(this.result_num, "result_num");
+            this.result_num.Name = "result_num";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // src_num
+            // 
+            resources.ApplyResources(this.src_num, "src_num");
+            this.src_num.Name = "src_num";
+            // 
+            // ViewGroup
+            // 
+            resources.ApplyResources(this.ViewGroup, "ViewGroup");
+            this.ViewGroup.Controls.Add(this.SrcView);
+            this.ViewGroup.Controls.Add(this.src_num);
+            this.ViewGroup.Controls.Add(this.Src);
+            this.ViewGroup.Controls.Add(this.label3);
+            this.ViewGroup.Controls.Add(this.splitter1);
+            this.ViewGroup.Name = "ViewGroup";
+            this.ViewGroup.TabStop = false;
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // groupBox1
+            // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.RegexText);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.Formula);
+            this.groupBox1.Controls.Add(this.Calculate);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // splitter1
+            // 
+            resources.ApplyResources(this.splitter1, "splitter1");
+            this.splitter1.Name = "splitter1";
+            this.splitter1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.rightbrac);
+            this.groupBox2.Controls.Add(this.leftbrac);
+            this.groupBox2.Controls.Add(this.inter);
+            this.groupBox2.Controls.Add(this.union);
+            this.groupBox2.Controls.Add(this.except);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
+            // 
+            // leftbrac
+            // 
+            resources.ApplyResources(this.leftbrac, "leftbrac");
+            this.leftbrac.Name = "leftbrac";
+            this.leftbrac.UseVisualStyleBackColor = true;
+            this.leftbrac.Click += new System.EventHandler(this.leftbrac_Click);
+            // 
+            // rightbrac
+            // 
+            resources.ApplyResources(this.rightbrac, "rightbrac");
+            this.rightbrac.Name = "rightbrac";
+            this.rightbrac.UseVisualStyleBackColor = true;
+            this.rightbrac.Click += new System.EventHandler(this.rightbrac_Click);
+            // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1203, 618);
-            this.Controls.Add(this.except);
-            this.Controls.Add(this.union);
-            this.Controls.Add(this.inter);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.SrcView);
-            this.Controls.Add(this.RegexText);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.ViewGroup);
+            this.Controls.Add(this.ResultGroup);
             this.Controls.Add(this.ClearAll);
             this.Controls.Add(this.Delete);
             this.Controls.Add(this.Import);
-            this.Controls.Add(this.Export);
-            this.Controls.Add(this.Calculate);
-            this.Controls.Add(this.Result);
-            this.Controls.Add(this.Formula);
-            this.Controls.Add(this.Src);
-            this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Main";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Elementary Calculator for MS";
             this.Load += new System.EventHandler(this.Main_Load);
             this.SrcContext.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SrcView)).EndInit();
+            this.ResultGroup.ResumeLayout(false);
+            this.ResultGroup.PerformLayout();
+            this.ViewGroup.ResumeLayout(false);
+            this.ViewGroup.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -297,6 +340,18 @@
         private System.Windows.Forms.Button inter;
         private System.Windows.Forms.Button union;
         private System.Windows.Forms.Button except;
+        private System.Windows.Forms.GroupBox ResultGroup;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label result_num;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label src_num;
+        private System.Windows.Forms.GroupBox ViewGroup;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Splitter splitter1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button rightbrac;
+        private System.Windows.Forms.Button leftbrac;
     }
 }
 

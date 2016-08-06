@@ -37,8 +37,8 @@
             // Apply
             // 
             this.Apply.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Apply.Location = new System.Drawing.Point(55, 235);
-            this.Apply.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Apply.Location = new System.Drawing.Point(72, 152);
+            this.Apply.Margin = new System.Windows.Forms.Padding(4);
             this.Apply.Name = "Apply";
             this.Apply.Size = new System.Drawing.Size(147, 40);
             this.Apply.TabIndex = 0;
@@ -50,8 +50,8 @@
             // 
             this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Cancel.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Cancel.Location = new System.Drawing.Point(371, 235);
-            this.Cancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Cancel.Location = new System.Drawing.Point(302, 150);
+            this.Cancel.Margin = new System.Windows.Forms.Padding(4);
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(147, 40);
             this.Cancel.TabIndex = 1;
@@ -61,8 +61,8 @@
             // 
             // rn_input
             // 
-            this.rn_input.Location = new System.Drawing.Point(180, 151);
-            this.rn_input.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rn_input.Location = new System.Drawing.Point(139, 98);
+            this.rn_input.Margin = new System.Windows.Forms.Padding(4);
             this.rn_input.Name = "rn_input";
             this.rn_input.Size = new System.Drawing.Size(244, 31);
             this.rn_input.TabIndex = 2;
@@ -71,7 +71,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(51, 39);
+            this.label1.Location = new System.Drawing.Point(13, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(467, 72);
@@ -85,14 +85,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.Cancel;
-            this.ClientSize = new System.Drawing.Size(573, 316);
+            this.ClientSize = new System.Drawing.Size(499, 205);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rn_input);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.Apply);
             this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Rename";
