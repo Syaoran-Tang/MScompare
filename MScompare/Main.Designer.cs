@@ -57,18 +57,20 @@
             this.label3 = new System.Windows.Forms.Label();
             this.src_num = new System.Windows.Forms.Label();
             this.ViewGroup = new System.Windows.Forms.GroupBox();
+            this.splitter1 = new System.Windows.Forms.Splitter();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.splitter1 = new System.Windows.Forms.Splitter();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.leftbrac = new System.Windows.Forms.Button();
             this.rightbrac = new System.Windows.Forms.Button();
+            this.leftbrac = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.SrcContext.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SrcView)).BeginInit();
             this.ResultGroup.SuspendLayout();
             this.ViewGroup.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // Src
@@ -244,6 +246,12 @@
             this.ViewGroup.Name = "ViewGroup";
             this.ViewGroup.TabStop = false;
             // 
+            // splitter1
+            // 
+            resources.ApplyResources(this.splitter1, "splitter1");
+            this.splitter1.Name = "splitter1";
+            this.splitter1.TabStop = false;
+            // 
             // label4
             // 
             resources.ApplyResources(this.label4, "label4");
@@ -260,12 +268,6 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
-            // splitter1
-            // 
-            resources.ApplyResources(this.splitter1, "splitter1");
-            this.splitter1.Name = "splitter1";
-            this.splitter1.TabStop = false;
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.rightbrac);
@@ -277,13 +279,6 @@
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
-            // leftbrac
-            // 
-            resources.ApplyResources(this.leftbrac, "leftbrac");
-            this.leftbrac.Name = "leftbrac";
-            this.leftbrac.UseVisualStyleBackColor = true;
-            this.leftbrac.Click += new System.EventHandler(this.leftbrac_Click);
-            // 
             // rightbrac
             // 
             resources.ApplyResources(this.rightbrac, "rightbrac");
@@ -291,17 +286,31 @@
             this.rightbrac.UseVisualStyleBackColor = true;
             this.rightbrac.Click += new System.EventHandler(this.rightbrac_Click);
             // 
+            // leftbrac
+            // 
+            resources.ApplyResources(this.leftbrac, "leftbrac");
+            this.leftbrac.Name = "leftbrac";
+            this.leftbrac.UseVisualStyleBackColor = true;
+            this.leftbrac.Click += new System.EventHandler(this.leftbrac_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.Delete);
+            this.groupBox3.Controls.Add(this.Import);
+            this.groupBox3.Controls.Add(this.ClearAll);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.TabStop = false;
+            // 
             // Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ViewGroup);
             this.Controls.Add(this.ResultGroup);
-            this.Controls.Add(this.ClearAll);
-            this.Controls.Add(this.Delete);
-            this.Controls.Add(this.Import);
             this.Name = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
             this.SrcContext.ResumeLayout(false);
@@ -313,6 +322,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -352,6 +362,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button rightbrac;
         private System.Windows.Forms.Button leftbrac;
+        private System.Windows.Forms.GroupBox groupBox3;
     }
 }
 

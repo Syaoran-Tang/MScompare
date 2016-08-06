@@ -37,10 +37,10 @@
             // Apply
             // 
             this.Apply.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Apply.Location = new System.Drawing.Point(72, 152);
+            this.Apply.Location = new System.Drawing.Point(47, 118);
             this.Apply.Margin = new System.Windows.Forms.Padding(4);
             this.Apply.Name = "Apply";
-            this.Apply.Size = new System.Drawing.Size(147, 40);
+            this.Apply.Size = new System.Drawing.Size(100, 30);
             this.Apply.TabIndex = 0;
             this.Apply.Text = "Apply";
             this.Apply.UseVisualStyleBackColor = true;
@@ -50,10 +50,10 @@
             // 
             this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Cancel.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Cancel.Location = new System.Drawing.Point(302, 150);
+            this.Cancel.Location = new System.Drawing.Point(191, 118);
             this.Cancel.Margin = new System.Windows.Forms.Padding(4);
             this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(147, 40);
+            this.Cancel.Size = new System.Drawing.Size(100, 30);
             this.Cancel.TabIndex = 1;
             this.Cancel.Text = "Cancel";
             this.Cancel.UseVisualStyleBackColor = true;
@@ -61,10 +61,10 @@
             // 
             // rn_input
             // 
-            this.rn_input.Location = new System.Drawing.Point(139, 98);
+            this.rn_input.Location = new System.Drawing.Point(47, 75);
             this.rn_input.Margin = new System.Windows.Forms.Padding(4);
             this.rn_input.Name = "rn_input";
-            this.rn_input.Size = new System.Drawing.Size(244, 31);
+            this.rn_input.Size = new System.Drawing.Size(244, 23);
             this.rn_input.TabIndex = 2;
             // 
             // label1
@@ -74,7 +74,7 @@
             this.label1.Location = new System.Drawing.Point(13, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(467, 72);
+            this.label1.Size = new System.Drawing.Size(320, 51);
             this.label1.TabIndex = 3;
             this.label1.Text = "NOTICE: \r\n        Program will automatically number and rename \r\nthe data set acc" +
     "ording the name you given.";
@@ -82,10 +82,10 @@
             // 
             // Rename
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.Cancel;
-            this.ClientSize = new System.Drawing.Size(499, 205);
+            this.ClientSize = new System.Drawing.Size(342, 165);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rn_input);
             this.Controls.Add(this.Cancel);

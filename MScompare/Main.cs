@@ -91,7 +91,7 @@ namespace MScompare
         private void Src_SelectedIndexChanged(object sender, EventArgs e)
         {   
             int index = Src.SelectedIndex;
-            if (index>=0)
+            if (index >= 0)
             {
                 SrcView.Rows.Clear();
                 foreach (MSset.Item line in SRC[index].Content)
@@ -100,8 +100,10 @@ namespace MScompare
                     SrcView.Rows[i].Cells[0].Value = line.name;
                     SrcView.Rows[i].Cells[1].Value = line.dcpt;
                 }
+                src_num.Text = SRC[index].Content.Count().ToString();
             }
-            src_num.Text = SRC[index].Content.Count().ToString();
+            else
+                src_num.Text = "";
         }
 
         private void ClearAll_Click(object sender, EventArgs e)
@@ -181,17 +183,26 @@ namespace MScompare
 
         private void inter_Click(object sender, EventArgs e)
         {
-            Formula.Paste(@"&");
+            if (Formula.SelectionStart < 1)
+                Formula.Text += @"&";
+            else
+                Formula.Paste(@"&");
         }
 
         private void union_Click(object sender, EventArgs e)
         {
-            Formula.Paste(@"+");
+            if (Formula.SelectionStart < 1)
+                Formula.Text += @"+";
+            else
+                Formula.Paste(@"+");
         }
 
         private void except_Click(object sender, EventArgs e)
         {
-            Formula.Paste(@"-");
+            if (Formula.SelectionStart<1)
+                Formula.Text += @"-";
+            else
+                Formula.Paste(@"-");
         }
 
         private void Export_Click(object sender, EventArgs e)
@@ -201,8 +212,9 @@ namespace MScompare
             {
                 StreamWriter sw = new StreamWriter(exportDialog.FileName, true);
                 foreach (String re in Result.Items)
-                    sw.WriteLine(re+"\r\n");
+                    sw.WriteLine(re);
                 sw.Close();
+                MessageBox.Show("Save successful.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
