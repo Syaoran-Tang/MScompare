@@ -227,5 +227,10 @@ namespace MScompare
         {
             Formula.Paste(@")");
         }
+
+        private void helplink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://github.com/Syaoran-Tang/MScompare");  
+        }
     }
 }

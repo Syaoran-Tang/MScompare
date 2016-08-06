@@ -64,6 +64,7 @@
             this.rightbrac = new System.Windows.Forms.Button();
             this.leftbrac = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.helplink = new System.Windows.Forms.LinkLabel();
             this.SrcContext.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SrcView)).BeginInit();
             this.ResultGroup.SuspendLayout();
@@ -302,15 +303,24 @@
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
+            // helplink
+            // 
+            resources.ApplyResources(this.helplink, "helplink");
+            this.helplink.Name = "helplink";
+            this.helplink.TabStop = true;
+            this.helplink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.helplink_LinkClicked);
+            // 
             // Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.helplink);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ViewGroup);
             this.Controls.Add(this.ResultGroup);
+            this.MaximizeBox = false;
             this.Name = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
             this.SrcContext.ResumeLayout(false);
@@ -324,6 +334,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -363,6 +374,7 @@
         private System.Windows.Forms.Button rightbrac;
         private System.Windows.Forms.Button leftbrac;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.LinkLabel helplink;
     }
 }
 
