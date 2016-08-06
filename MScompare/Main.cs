@@ -204,7 +204,20 @@ namespace MScompare
             else
                 Formula.Paste(@"-");
         }
-
+        private void leftbrac_Click(object sender, EventArgs e)
+        {
+            if (Formula.SelectionStart < 1)
+                Formula.Text += @"(";
+            else
+                Formula.Paste(@"(");
+        }
+        private void rightbrac_Click(object sender, EventArgs e)
+        {
+            if (Formula.SelectionStart < 1)
+                Formula.Text += @")";
+            else
+                Formula.Paste(@")");
+        }
         private void Export_Click(object sender, EventArgs e)
         {
             this.exportDialog.Filter = "ASCII File(*.txt)|*.txt";
@@ -217,17 +230,6 @@ namespace MScompare
                 MessageBox.Show("Save successful.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
-        private void leftbrac_Click(object sender, EventArgs e)
-        {
-            Formula.Paste(@"(");
-        }
-
-        private void rightbrac_Click(object sender, EventArgs e)
-        {
-            Formula.Paste(@")");
-        }
-
         private void helplink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("http://github.com/Syaoran-Tang/MScompare");  
