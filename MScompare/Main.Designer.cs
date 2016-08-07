@@ -158,6 +158,7 @@
             // 
             this.SrcView.AllowUserToAddRows = false;
             resources.ApplyResources(this.SrcView, "SrcView");
+            this.SrcView.BackgroundColor = System.Drawing.SystemColors.Window;
             this.SrcView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.SrcView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
