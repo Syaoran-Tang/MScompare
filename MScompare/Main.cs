@@ -10,6 +10,9 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using org.apache.pdfbox.pdmodel;
+using org.apache.pdfbox.util;
+
 namespace MScompare
 {
     public partial class Main : Form
@@ -40,18 +43,46 @@ namespace MScompare
             public void readFile(String FilePath,String regexstr)
             {
                 Name = Path.GetFileNameWithoutExtension(FilePath);
-                StreamReader sr = new StreamReader(FilePath, Encoding.Default);
-                String line;
-                while ((line = sr.ReadLine()) != null)
+                String FileType = Path.GetExtension(FilePath);
+                if (FileType == ".txt")
                 {
-                    Match mat = Regex.Match(line, regexstr);
-                    String id = mat.Value;
-                    if (id.Length>0)
+                    StreamReader sr = new StreamReader(FilePath, Encoding.Default);
+                    String line;
+                    while ((line = sr.ReadLine()) != null)
                     {
-                        String cont = line.Replace(id, "$");
-                        Item item = new Item(id, cont);
-                        Content.Add(item);
-                        Index.Add(id);
+                        Match mat = Regex.Match(line, regexstr);
+                        String id = mat.Value;
+                        if (id.Length > 0)
+                        {
+                            if (!Index.Contains(id))
+                            {
+                                String cont = line.Replace(id, "$");
+                                Item item = new Item(id, cont);
+                                Content.Add(item);
+                                Index.Add(id);
+                            }
+                        }
+                    }
+                }
+                else if (FileType == ".pdf")
+                {
+                    PDDocument pdf = PDDocument.load(FilePath);
+                    PDFTextStripper pdfStripper = new PDFTextStripper();
+                    String[] all_text = pdfStripper.getText(pdf).Replace("\r\n", "\\"). Split('\\');
+                    foreach (String line in all_text)
+                    {
+                        Match mat = Regex.Match(line, regexstr);
+                        String id = mat.Value;
+                        if (id.Length > 0)
+                        {
+                            if (!Index.Contains(id))
+                            {
+                                String cont = line.Replace(id, "$");
+                                Item item = new Item(id, cont);
+                                Content.Add(item);
+                                Index.Add(id);
+                            }
+                        }
                     }
                 }
             }
@@ -69,7 +100,7 @@ namespace MScompare
         }
         private void Import_Click(object sender, EventArgs e)
         {
-            this.importDialog.Filter = "ASCII File(*.txt)|*.txt";
+            this.importDialog.Filter = "ASCII File(*.txt)|*.txt|PDF File(*.pdf)|*.pdf";
             if (this.importDialog.ShowDialog() == DialogResult.OK)
             {
                 MSset curMSset = new MSset();
