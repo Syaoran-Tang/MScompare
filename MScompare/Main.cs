@@ -12,6 +12,8 @@ using System.Windows.Forms;
 
 using org.apache.pdfbox.pdmodel;
 using org.apache.pdfbox.util;
+//Using PDFBox.net to read pdf file.
+//The .dll package is downloaded from http://www.antoniob.com/pdfbox-121-for-net-binaries.html
 
 namespace MScompare
 {

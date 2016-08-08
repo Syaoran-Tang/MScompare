@@ -32,6 +32,7 @@ namespace MScompare
             }
         }
         /// <summary>
+        /// Reference: http://www.cnblogs.com/lxfqlcz/archive/2011/08/02/2124854.html
         /// 逆波兰式算法
         ///1、从左至右扫描一中缀表达式。
         ///2、若读取的是操作数，则判断该操作数的类型，并将该操作数存入操作数堆栈
