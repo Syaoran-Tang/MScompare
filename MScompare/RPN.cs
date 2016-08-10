@@ -103,33 +103,35 @@ namespace MScompare
         }
         public List<String> Evaluate()
         {
+            var rpn = expConvert(this.fma);
+            var calcuStack = new Stack<List<String>>();
+            List<String> left, right;
+            object cur;
+            while (rpn.Count > 0)
+            {
+                cur = rpn.Dequeue();
+                if (cur is char)
+                {
+                    right = calcuStack.Pop();
+                    left = calcuStack.Pop();
+                    calcuStack.Push(Compute(left, right, (char)cur));
+                }
+                else if (cur is int)
+                {
+                    calcuStack.Push(SRC[Convert.ToInt32(cur)].Index);
+                }
+            }
+            return calcuStack.Pop();
+            /*
             try
             {
-                var rpn = expConvert(this.fma);
-                var calcuStack = new Stack<List<String>>();
-                List<String> left, right;
-                object cur;
-                while (rpn.Count > 0)
-                {
-                    cur = rpn.Dequeue();
-                    if (cur is char)
-                    {
-                        right = calcuStack.Pop();
-                        left = calcuStack.Pop();
-                        calcuStack.Push(Compute(left, right, (char)cur));
-                    }
-                    else if (cur is int)
-                    {
-                        calcuStack.Push(this.SRC[Convert.ToInt32(cur)].Index);
-                    }
-                }
-                return calcuStack.Pop();
+
             }
             catch
             {
                 MessageBox.Show("Expression has error(s), please check!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return new List<String>();
-            }
+            }*/
         }
     }
 }

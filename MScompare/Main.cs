@@ -309,7 +309,7 @@ namespace MScompare
         private void import_bw_CompletedWork(object sender, RunWorkerCompletedEventArgs e)
         {
             SRC.Add(curMSset);
-            int num = SRC.Count();
+            int num = SRC.Count()-1;
             String ShowName = "#" + num.ToString() + "_" + curMSset.Name + "#";
             Src.Items.Add(ShowName);
             Src.SelectedIndex = Src.Items.Count - 1;
