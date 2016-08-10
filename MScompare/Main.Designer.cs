@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Src = new System.Windows.Forms.ListBox();
             this.SrcContext = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.renameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,6 +58,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.src_num = new System.Windows.Forms.Label();
             this.ViewGroup = new System.Windows.Forms.GroupBox();
+            this.loadlabel = new System.Windows.Forms.Label();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -69,7 +70,6 @@
             this.helplink = new System.Windows.Forms.LinkLabel();
             this.import_bw = new System.ComponentModel.BackgroundWorker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.loadlabel = new System.Windows.Forms.Label();
             this.SrcContext.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SrcView)).BeginInit();
             this.ResultGroup.SuspendLayout();
@@ -169,14 +169,14 @@
             this.ID,
             this.dcpt});
             this.SrcView.Name = "SrcView";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("微软雅黑", 9F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.SrcView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("微软雅黑", 9F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SrcView.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.SrcView.RowTemplate.Height = 30;
             this.SrcView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.SrcView.ShowCellErrors = false;
@@ -263,6 +263,13 @@
             this.ViewGroup.Name = "ViewGroup";
             this.ViewGroup.TabStop = false;
             // 
+            // loadlabel
+            // 
+            resources.ApplyResources(this.loadlabel, "loadlabel");
+            this.loadlabel.BackColor = System.Drawing.SystemColors.Window;
+            this.loadlabel.Image = global::MScompare.Properties.Resources.load;
+            this.loadlabel.Name = "loadlabel";
+            // 
             // splitter1
             // 
             resources.ApplyResources(this.splitter1, "splitter1");
@@ -344,13 +351,6 @@
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
-            // 
-            // loadlabel
-            // 
-            resources.ApplyResources(this.loadlabel, "loadlabel");
-            this.loadlabel.BackColor = System.Drawing.SystemColors.Window;
-            this.loadlabel.Image = global::MScompare.Properties.Resources.load;
-            this.loadlabel.Name = "loadlabel";
             // 
             // Main
             // 
