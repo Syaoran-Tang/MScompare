@@ -42,6 +42,11 @@ namespace MScompare
                 Content = new List<Item>();
                 Index = new List<String>();
             }
+            public void clear()
+            {
+                Content = new List<Item>();
+                Index = new List<String>();
+            }
             public void readFile(String FilePath,String regexstr)
             {
                 Name = Path.GetFileNameWithoutExtension(FilePath);
@@ -91,6 +96,7 @@ namespace MScompare
         }
         public List<MSset> SRC;
         public List<String> AnsList;
+        public MSset curMSset;
         public Main()
         {
             InitializeComponent();
@@ -99,25 +105,18 @@ namespace MScompare
         {
             SRC = new List<MSset>();
             AnsList = new List<String>();
+            import_bw.DoWork += new DoWorkEventHandler(import_bw_DoWork);
+            import_bw.RunWorkerCompleted += new RunWorkerCompletedEventHandler(import_bw_CompletedWork);
+            SrcView.AllowUserToAddRows = false;
         }
         private void Import_Click(object sender, EventArgs e)
         {
             this.importDialog.Filter = "ASCII File(*.txt)|*.txt|PDF File(*.pdf)|*.pdf";
             if (this.importDialog.ShowDialog() == DialogResult.OK)
             {
-                MSset curMSset = new MSset();
-                int num = SRC.Count();
-                String ShowName = "#"+num.ToString()+"_"+Path.GetFileNameWithoutExtension(importDialog.FileName)+"#";
-                curMSset.readFile(importDialog.FileName, RegexText.Text);
-                SRC.Add(curMSset);
-                Src.Items.Add(ShowName);
-
-                foreach (MSset.Item line in curMSset.Content)
-                {
-                    int index = SrcView.Rows.Add();
-                    SrcView.Rows[index].Cells[0].Value = line.name;
-                    SrcView.Rows[index].Cells[1].Value = line.dcpt;
-                }
+                Import.Enabled = Save.Enabled = Delete.Enabled = ClearAll.Enabled = SrcView.Enabled = Src.Enabled = false;
+                loadlabel.Visible = true;
+                import_bw.RunWorkerAsync(this);
             }
         }
 
@@ -133,6 +132,9 @@ namespace MScompare
                     SrcView.Rows[i].Cells[0].Value = line.name;
                     SrcView.Rows[i].Cells[1].Value = line.dcpt;
                 }
+                SrcView.AllowUserToAddRows = true;
+                SrcView_refresh();
+
                 src_num.Text = SRC[index].Content.Count().ToString();
             }
             else
@@ -172,6 +174,7 @@ namespace MScompare
                 }
                 else
                     SRC.RemoveAt(index);
+                SrcView_refresh();
             }
         }
 
@@ -266,6 +269,60 @@ namespace MScompare
         private void helplink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("http://github.com/Syaoran-Tang/MScompare");  
+        }
+
+        private void SrcView_refresh()
+        {
+            for (int i = 0; i < this.SrcView.Rows.Count-1; i++)
+            {
+                SrcView.Rows[i].HeaderCell.Value = (i + 1).ToString();
+                SrcView.Rows[i].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleRight;
+            }
+            SrcView.AutoResizeRowHeadersWidth(DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders);
+        }
+
+        private void Save_Click(object sender, EventArgs e)
+        {
+            int index = Src.SelectedIndex;
+            if (index >= 0)
+            {
+                SRC[index].clear();
+                for (int i = 0; i < this.SrcView.Rows.Count - 1; i++)
+                {
+                    String temp_name = SrcView.Rows[i].Cells[0].Value.ToString();
+                    String temp_dcpt = SrcView.Rows[i].Cells[1].Value.ToString();
+                    MSset.Item temp = new MSset.Item(temp_name, temp_dcpt);
+                    SRC[index].Content.Add(temp);
+                    SRC[index].Index.Add(temp_name);
+                }
+                MessageBox.Show("Save successful.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                SrcView_refresh();
+            }
+        }
+
+        private void import_bw_DoWork(object sender, DoWorkEventArgs e)
+        {
+            curMSset = new MSset();
+            curMSset.readFile(importDialog.FileName, RegexText.Text);
+            
+        }
+        private void import_bw_CompletedWork(object sender, RunWorkerCompletedEventArgs e)
+        {
+            SRC.Add(curMSset);
+            int num = SRC.Count();
+            String ShowName = "#" + num.ToString() + "_" + curMSset.Name + "#";
+            Src.Items.Add(ShowName);
+            Src.SelectedIndex = Src.Items.Count - 1;
+
+            foreach (MSset.Item line in curMSset.Content)
+            {
+                int index = SrcView.Rows.Add();
+                SrcView.Rows[index].Cells[0].Value = line.name;
+                SrcView.Rows[index].Cells[1].Value = line.dcpt;
+            }
+            SrcView_refresh();
+            Import.Enabled = Save.Enabled = Delete.Enabled = ClearAll.Enabled = SrcView.Enabled = Src.Enabled = true;
+            loadlabel.Visible = false;
         }
     }
 }
