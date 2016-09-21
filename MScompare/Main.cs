@@ -210,6 +210,7 @@ namespace MScompare
         {
             RPN calcu = new RPN(Formula.Text, SRC);
             AnsList=calcu.Evaluate();
+            Result.Items.Clear();
             foreach (String ans in AnsList)
             {
                 Result.Items.Add(ans);

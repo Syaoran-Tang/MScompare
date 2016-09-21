@@ -37,13 +37,14 @@ namespace MScompare
         ///1、从左至右扫描一中缀表达式。
         ///2、若读取的是操作数，则判断该操作数的类型，并将该操作数存入操作数堆栈
         ///3、若读取的是运算符
-        /// (1) 该运算符为左括号"("，则直接存入运算符堆栈。
-        ///	(2) 该运算符为右括号")"，则输出运算符堆栈中的运算符到操作数堆栈，直到遇到左括号为止，此时抛弃该左括号。
+        /// (1) 该运算符为左括号"("，则直接存入运算符堆栈opStack。
+        ///	(2) 该运算符为右括号")"，则输出运算符堆栈opStack中的运算符到操作数堆栈rpn，直到遇到左括号为止，此时抛弃该左括号。
         ///	(3) 该运算符为非括号运算符：
-        ///		(a) 若运算符堆栈栈顶的运算符为左括号，则直接存入运算符堆栈。
-        ///		(b) 若比运算符堆栈栈顶的运算符优先级高，则直接存入运算符堆栈。(##本例中不涉及##)
-        ///		(c) 若比运算符堆栈栈顶的运算符优先级低或相等，则输出栈顶运算符到操作数堆栈，直至运算符栈栈顶运算符低于（不包括等于）该运算符优先级，或为左括号，并将当前运算符压入运算符堆栈。
-        ///4、当表达式读取完成后运算符堆栈中尚有运算符时，则依序取出运算符到操作数堆栈，直到运算符堆栈为空。
+        ///		(a) 若运算符堆栈opStack栈顶的运算符为左括号，则直接存入运算符堆栈opStack。
+        ///		(b) 若比运算符堆栈opStack栈顶的运算符优先级高，则直接存入运算符堆栈opStack。(##本例中不涉及##)
+        ///		(c) 若比运算符堆栈opStack栈顶的运算符优先级低或相等，则输出栈顶运算符到操作数堆栈rpn，
+        ///		    直至运算符栈opStack栈顶运算符低于（不包括等于）该运算符优先级，或为左括号，并将当前运算符压入运算符堆栈opStack。
+        ///4、当表达式读取完成后运算符堆栈opStack中尚有运算符时，则依序取出运算符到操作数堆栈rpn，直到运算符堆栈opStack为空。
         /// </summary>
         /// <param name="expression"></param>
         /// <returns></returns>
@@ -86,12 +87,12 @@ namespace MScompare
                         if (opStack.Count == 0)
                             opStack.Push(cur);
                         else if (opStack.Peek() == '(')
-                            rpn.Enqueue(cur);
+                            opStack.Push(cur);
                         else
                         {
                             while (opStack.Peek() != '(')
                                 rpn.Enqueue(opStack.Pop());
-                            rpn.Enqueue(cur);
+                            opStack.Push(cur);
                         }
                     }
                 }
@@ -103,7 +104,6 @@ namespace MScompare
         }
         public List<String> Evaluate()
         {
-
             try
             {
                 var rpn = expConvert(this.fma);
