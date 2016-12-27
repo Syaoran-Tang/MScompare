@@ -71,7 +71,7 @@ namespace MScompare
                         }
                     }
                 }
-                else if (FileType == ".pdf")
+                else if (FileType.Equals(".pdf", StringComparison.OrdinalIgnoreCase))
                 {
                     PDDocument pdf = PDDocument.load(FilePath);
                     PDFTextStripper pdfStripper = new PDFTextStripper();
