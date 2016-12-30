@@ -58,7 +58,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.src_num = new System.Windows.Forms.Label();
             this.ViewGroup = new System.Windows.Forms.GroupBox();
-            this.loadlabel = new System.Windows.Forms.Label();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -70,6 +69,7 @@
             this.helplink = new System.Windows.Forms.LinkLabel();
             this.import_bw = new System.ComponentModel.BackgroundWorker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.loadlabel = new System.Windows.Forms.Label();
             this.SrcContext.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SrcView)).BeginInit();
             this.ResultGroup.SuspendLayout();
@@ -119,6 +119,8 @@
             resources.ApplyResources(this.Result, "Result");
             this.Result.FormattingEnabled = true;
             this.Result.Name = "Result";
+            this.Result.SelectedIndexChanged += new System.EventHandler(this.Result_SelectedIndexChanged);
+            this.Result.Leave += new System.EventHandler(this.Result_Leave);
             // 
             // Calculate
             // 
@@ -263,13 +265,6 @@
             this.ViewGroup.Name = "ViewGroup";
             this.ViewGroup.TabStop = false;
             // 
-            // loadlabel
-            // 
-            resources.ApplyResources(this.loadlabel, "loadlabel");
-            this.loadlabel.BackColor = System.Drawing.SystemColors.Window;
-            this.loadlabel.Image = global::MScompare.Properties.Resources.load;
-            this.loadlabel.Name = "loadlabel";
-            // 
             // splitter1
             // 
             resources.ApplyResources(this.splitter1, "splitter1");
@@ -351,6 +346,13 @@
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            // 
+            // loadlabel
+            // 
+            resources.ApplyResources(this.loadlabel, "loadlabel");
+            this.loadlabel.BackColor = System.Drawing.SystemColors.Window;
+            this.loadlabel.Image = global::MScompare.Properties.Resources.load;
+            this.loadlabel.Name = "loadlabel";
             // 
             // Main
             // 

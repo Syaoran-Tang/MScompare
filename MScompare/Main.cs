@@ -19,6 +19,7 @@ namespace MScompare
 {
     public partial class Main : Form
     {
+        
         public class MSset
         { 
             public class Item
@@ -97,12 +98,14 @@ namespace MScompare
         public List<MSset> SRC;
         public List<String> AnsList;
         public MSset curMSset;
+        public Detail DetailFrom;
         public Main()
         {
             InitializeComponent();
         }
         private void Main_Load(object sender, EventArgs e)
         {
+            DetailFrom = new Detail(this);
             SRC = new List<MSset>();
             AnsList = new List<String>();
             import_bw.DoWork += new DoWorkEventHandler(import_bw_DoWork);
@@ -324,6 +327,33 @@ namespace MScompare
             SrcView_refresh();
             Import.Enabled = Save.Enabled = Delete.Enabled = ClearAll.Enabled = SrcView.Enabled = Src.Enabled = true;
             loadlabel.Visible = false;
+        }
+
+        private void Result_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(Result.SelectedIndex>=0)
+            {
+                String Name = Result.SelectedItem.ToString();
+                String DetailInfo = Name + ":\r\n-------------\r\n";
+                foreach(MSset set in SRC)
+                {
+                    int idx = set.Index.IndexOf(Name);
+                    if (idx >= 0)
+                    {
+                        DetailInfo += "@" + set.Name.Replace("#","") + "\r\n";
+                        DetailInfo += set.Content[idx].dcpt + "\r\n-------------\r\n";
+                    }
+                }
+                DetailFrom.setText(DetailInfo);
+                DetailFrom.StartPosition = FormStartPosition.Manual;
+                DetailFrom.Location = new Point(this.Location.X+928, this.Location.Y);
+                DetailFrom.Show();
+            }
+        }
+
+        private void Result_Leave(object sender, EventArgs e)
+        {
+            DetailFrom.Hide();
         }
     }
 }
