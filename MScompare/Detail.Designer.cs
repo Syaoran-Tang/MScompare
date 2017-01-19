@@ -43,12 +43,13 @@
             this.DetailText.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.DetailText.ForeColor = System.Drawing.SystemColors.InfoText;
             this.DetailText.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.DetailText.Location = new System.Drawing.Point(12, 12);
+            this.DetailText.Location = new System.Drawing.Point(0, 0);
+            this.DetailText.Margin = new System.Windows.Forms.Padding(0);
             this.DetailText.Multiline = true;
             this.DetailText.Name = "DetailText";
             this.DetailText.ReadOnly = true;
             this.DetailText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.DetailText.Size = new System.Drawing.Size(447, 447);
+            this.DetailText.Size = new System.Drawing.Size(472, 473);
             this.DetailText.TabIndex = 0;
             this.DetailText.TabStop = false;
             // 
@@ -59,7 +60,7 @@
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(471, 471);
             this.Controls.Add(this.DetailText);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Detail";
@@ -68,7 +69,6 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Detail";
-            this.TopMost = true;
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Detail_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Detail_MouseMove);
             this.ResumeLayout(false);
