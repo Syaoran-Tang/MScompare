@@ -2,19 +2,17 @@
 
 这是一个设计用来对蛋白质谱结果进行初等分析的工具。也可以用来对比分析多个含有部分相同内容的文本文档工具
 
-###功能
+### 功能
 * 支持txt文件和pdf文件(<b>0.2版新增</b>)的读取。
 * 支持对数据集进行增加、（批量）删除、编辑。
 * 对导入的质谱结果集合进行取交集、并集、差集操作。
 * 支持自定义计算式。
 * 推荐数据量总大小<1M，若需处理过大的数据集请移步python或R等更专业的分析工具:-)
 
-###下载
-
+### 下载
 https://github.com/Syaoran-Tang/MScompare/releases
 
-###使用方法
-
+### 使用方法
 * 通过 `Import` 按钮将数据导入程序，每个文件将对应一个数据集合。
  * 对于txt文件，需要将质谱pdf文件中的分析结果复制到一个txt文件中，保证每一行对应一个基因。
  * 对于pdf文件，程序将自动检索文件中所有含有指定基因号的文本（以一行为单位），<b>程序会排除重复出现的基因号</b>。依PDF文件的大小不一，读取可能会花费一点时间，请耐心等待。
@@ -25,16 +23,13 @@ https://github.com/Syaoran-Tang/MScompare/releases
 * 单击`Insert`可以将选择的数据集插入到下方的`CalculateExp`中，当然你也可以自己手动输入（包括`Shortcut`面板中的几种运算符）。每个数据集用`#...#`修饰用以和运算符区别。随便输入的话请放心，程序会提~醒你的:-)
 * 计算结果显示在右侧的`Result`面板中，可以使用`Export`将结果导出。
 
-###致谢
-
+### 致谢
 感谢Ryan同学提供测试数据
 
-###开源信息/License
-
+### 开源信息/License
 * 本程序使用MIT License。
 * 逆波兰式算法实现参考了： http://www.cnblogs.com/lxfqlcz/archive/2011/08/02/2124854.html
 * PDF文件读取使用了 http://www.antoniob.com/pdfbox-121-for-net-binaries.html 提供的dll包。
 
-###以下废话
-
+### 以下废话
 本作品初衷是为了帮助广大不熟悉编程的同学处理质谱数据，纯属闲暇时的非正式作品。如果有bug或者功能需求可以在github上发表issue留言：https://github.com/Syaoran-Tang/MScompare/issues
