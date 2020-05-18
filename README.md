@@ -10,9 +10,11 @@
 * 推荐数据量总大小<1M，若需处理过大的数据集请移步python或R等更专业的分析工具:-)
 
 ###下载
+
 https://github.com/Syaoran-Tang/MScompare/releases
 
 ###使用方法
+
 * 通过 `Import` 按钮将数据导入程序，每个文件将对应一个数据集合。
  * 对于txt文件，需要将质谱pdf文件中的分析结果复制到一个txt文件中，保证每一行对应一个基因。
  * 对于pdf文件，程序将自动检索文件中所有含有指定基因号的文本（以一行为单位），<b>程序会排除重复出现的基因号</b>。依PDF文件的大小不一，读取可能会花费一点时间，请耐心等待。
@@ -24,12 +26,15 @@ https://github.com/Syaoran-Tang/MScompare/releases
 * 计算结果显示在右侧的`Result`面板中，可以使用`Export`将结果导出。
 
 ###致谢
+
 感谢Ryan同学提供测试数据
 
 ###开源信息/License
+
 * 本程序使用MIT License。
 * 逆波兰式算法实现参考了： http://www.cnblogs.com/lxfqlcz/archive/2011/08/02/2124854.html
 * PDF文件读取使用了 http://www.antoniob.com/pdfbox-121-for-net-binaries.html 提供的dll包。
 
 ###以下废话
+
 本作品初衷是为了帮助广大不熟悉编程的同学处理质谱数据，纯属闲暇时的非正式作品。如果有bug或者功能需求可以在github上发表issue留言：https://github.com/Syaoran-Tang/MScompare/issues
